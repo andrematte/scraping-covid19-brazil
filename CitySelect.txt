@@ -1,0 +1,38 @@
+# Fill the section inside "{}" to choose the desired cities.
+
+{'BELEM': 'PA_Belém',
+ 'FORTALEZA': 'CE_Fortaleza',
+ 'MANAUS': 'AM_Manaus',
+ 'RECIFE': 'PE_Recife',
+ 'RIO DE JANEIRO': 'RJ_Rio de Janeiro',
+ 'SAO PAULO': 'SP_São Paulo',}
+
+
+
+#{'ARACAJU': 'SE_Aracaju',
+#'BELO HORIZONTE': 'MG_Belo Horizonte',
+#'BELEM': 'PA_Belém',
+#'BOA VISTA': 'RR_Boa Vista',
+#'BRASILIA': 'DF_Brasília',
+#'CAMPO GRANDE': 'MS_Campo Grande',
+#'CUIABA': 'MT_Cuiaba',
+#'CURITIBA': 'PR_Curitiba',
+#'FLORIANOPOLIS': 'SC_Florianopolis',
+#'FORTALEZA': 'CE_Fortaleza',
+#'GOIANIA': 'GO_Goiânia',
+#'JOAO PESSOA': 'PB_Joao Pessoa',
+#'MACAPA': 'AP_Macapa',
+#'MACEIO': 'AL_Maceio',
+#'MANAUS': 'AM_Manaus',
+#'NATAL': 'RN_Natal',
+#'PALMAS': 'TO_Palmas',
+#'PORTO ALEGRE': 'RS_Porto Alegre',
+#'PORTO VELHO': 'RO_Porto Velho',
+#'RECIFE': 'PE_Recife',
+#'RIO BRANCO': 'AC_Rio Branco',
+#'RIO DE JANEIRO': 'RJ_Rio de Janeiro',
+#'SALVADOR': 'BA_Salvador',
+#'SAO LUIS': 'MA_São Luís',
+#'SAO PAULO': 'SP_São Paulo',
+#'TERESINA': 'PI_Teresina',
+#'VITORIA': 'ES_Vitória'}

@@ -1,0 +1,2816 @@
+[{
+    "total": 190,
+    "nome": "Abreu e Lima",
+    "uf": "PE",
+    "city_id": "2598"
+}, {
+    "total": 127,
+    "nome": "Açailandia",
+    "uf": "MA",
+    "city_id": "1917"
+}, {
+    "total": 116,
+    "nome": "Açu",
+    "uf": "RN",
+    "city_id": "3415"
+}, {
+    "total": 109,
+    "nome": "Adamantina",
+    "uf": "SP",
+    "city_id": "39"
+}, {
+    "total": 102,
+    "nome": "Afogados da Ingazeira",
+    "uf": "PE",
+    "city_id": "2621"
+}, {
+    "total": 284,
+    "nome": "Alagoinhas",
+    "uf": "BA",
+    "city_id": "864"
+}, {
+    "total": 203,
+    "nome": "Alegrete",
+    "uf": "RS",
+    "city_id": "3690"
+}, {
+    "total": 114,
+    "nome": "Alem Paraiba",
+    "uf": "MG",
+    "city_id": "4820"
+}, {
+    "total": 181,
+    "nome": "Alfenas",
+    "uf": "MG",
+    "city_id": "4805"
+}, {
+    "total": 118,
+    "nome": "Aliança",
+    "uf": "PE",
+    "city_id": "2627"
+}, {
+    "total": 168,
+    "nome": "Almirante Tamandaré",
+    "uf": "PR",
+    "city_id": "2996"
+}, {
+    "total": 185,
+    "nome": "Altamira",
+    "uf": "PA",
+    "city_id": "2267"
+}, {
+    "total": 263,
+    "nome": "Alvorada",
+    "uf": "RS",
+    "city_id": "3674"
+}, {
+    "total": 501,
+    "nome": "Americana",
+    "uf": "SP",
+    "city_id": "64"
+}, {
+    "total": 200,
+    "nome": "Amparo",
+    "uf": "SP",
+    "city_id": "191"
+}, {
+    "total": 180,
+    "nome": "Ananindeua",
+    "uf": "PA",
+    "city_id": "2243"
+}, {
+    "total": 735,
+    "nome": "Anapolis",
+    "uf": "GO",
+    "city_id": "1569"
+}, {
+    "total": 102,
+    "nome": "Andradas",
+    "uf": "MG",
+    "city_id": "4991"
+}, {
+    "total": 184,
+    "nome": "Andradina",
+    "uf": "SP",
+    "city_id": "292"
+}, {
+    "total": 385,
+    "nome": "Angra dos Reis",
+    "uf": "RJ",
+    "city_id": "4692"
+}, {
+    "total": 776,
+    "nome": "Aparecida de Goiania",
+    "uf": "GO",
+    "city_id": "1579"
+}, {
+    "total": 109,
+    "nome": "Aquidauana",
+    "uf": "MS",
+    "city_id": "2021"
+}, {
+    "total": 1277,
+    "nome": "Aracaju",
+    "uf": "SE",
+    "city_id": "4426"
+}, {
+    "total": 120,
+    "nome": "Aracati",
+    "uf": "CE",
+    "city_id": "1321"
+}, {
+    "total": 541,
+    "nome": "Araçatuba",
+    "uf": "SP",
+    "city_id": "23"
+}, {
+    "total": 143,
+    "nome": "Aracruz",
+    "uf": "ES",
+    "city_id": "1467"
+}, {
+    "total": 252,
+    "nome": "Araguari",
+    "uf": "MG",
+    "city_id": "4799"
+}, {
+    "total": 568,
+    "nome": "Arapiraca",
+    "uf": "AL",
+    "city_id": "679"
+}, {
+    "total": 269,
+    "nome": "Arapongas",
+    "uf": "PR",
+    "city_id": "3003"
+}, {
+    "total": 121,
+    "nome": "Ararangu\u00e1",
+    "uf": "SC",
+    "city_id": "4272"
+}, {
+    "total": 658,
+    "nome": "Araraquara",
+    "uf": "SP",
+    "city_id": "140"
+}, {
+    "total": 318,
+    "nome": "Araras",
+    "uf": "SP",
+    "city_id": "142"
+}, {
+    "total": 185,
+    "nome": "Araripina",
+    "uf": "PE",
+    "city_id": "2631"
+}, {
+    "total": 441,
+    "nome": "Araruama",
+    "uf": "RJ",
+    "city_id": "4666"
+}, {
+    "total": 207,
+    "nome": "Araucaria",
+    "uf": "PR",
+    "city_id": "3013"
+}, {
+    "total": 248,
+    "nome": "Araxa",
+    "uf": "MG",
+    "city_id": "4756"
+}, {
+    "total": 168,
+    "nome": "Arcoverde",
+    "uf": "PE",
+    "city_id": "2632"
+}, {
+    "total": 190,
+    "nome": "Ariquemes",
+    "uf": "RO",
+    "city_id": "3568"
+}, {
+    "total": 150,
+    "nome": "Aruja",
+    "uf": "SP",
+    "city_id": "124"
+}, {
+    "total": 286,
+    "nome": "Assis",
+    "uf": "SP",
+    "city_id": "113"
+}, {
+    "total": 369,
+    "nome": "Atibaia",
+    "uf": "SP",
+    "city_id": "226"
+}, {
+    "total": 259,
+    "nome": "Avare",
+    "uf": "SP",
+    "city_id": "199"
+}, {
+    "total": 373,
+    "nome": "Bage",
+    "uf": "RS",
+    "city_id": "3668"
+}, {
+    "total": 250,
+    "nome": "Balneario Camboriu",
+    "uf": "SC",
+    "city_id": "4173"
+}, {
+    "total": 349,
+    "nome": "Barbacena",
+    "uf": "MG",
+    "city_id": "4729"
+}, {
+    "total": 148,
+    "nome": "Barbalha",
+    "uf": "CE",
+    "city_id": "1329"
+}, {
+    "total": 114,
+    "nome": "Barra Bonita",
+    "uf": "SP",
+    "city_id": "201"
+}, {
+    "total": 103,
+    "nome": "Barra de São Francisco",
+    "uf": "ES",
+    "city_id": "1496"
+}, {
+    "total": 128,
+    "nome": "Barra do Corda",
+    "uf": "MA",
+    "city_id": "1887"
+}, {
+    "total": 359,
+    "nome": "Barra Mansa",
+    "uf": "RJ",
+    "city_id": "4647"
+}, {
+    "total": 275,
+    "nome": "Barreiras",
+    "uf": "BA",
+    "city_id": "865"
+}, {
+    "total": 439,
+    "nome": "Barretos",
+    "uf": "SP",
+    "city_id": "50"
+}, {
+    "total": 656,
+    "nome": "Barueri",
+    "uf": "SP",
+    "city_id": "6"
+}, {
+    "total": 158,
+    "nome": "Batatais",
+    "uf": "SP",
+    "city_id": "184"
+}, {
+    "total": 864,
+    "nome": "Bauru",
+    "uf": "SP",
+    "city_id": "63"
+}, {
+    "total": 162,
+    "nome": "Bayeux",
+    "uf": "PB",
+    "city_id": "2439"
+}, {
+    "total": 185,
+    "nome": "Bebedouro",
+    "uf": "SP",
+    "city_id": "60"
+}, {
+    "total": 4458,
+    "nome": "Belém",
+    "uf": "PA",
+    "city_id": "2241"
+}, {
+    "total": 1063,
+    "nome": "Belford Roxo",
+    "uf": "RJ",
+    "city_id": "4672"
+}, {
+    "total": 5334,
+    "nome": "Belo Horizonte",
+    "uf": "MG",
+    "city_id": "4750"
+}, {
+    "total": 232,
+    "nome": "Belo Jardim",
+    "uf": "PE",
+    "city_id": "2604"
+}, {
+    "total": 110,
+    "nome": "Benevides",
+    "uf": "PA",
+    "city_id": "2274"
+}, {
+    "total": 241,
+    "nome": "Bento Gonçalves",
+    "uf": "RS",
+    "city_id": "3664"
+}, {
+    "total": 146,
+    "nome": "Bertioga",
+    "uf": "SP",
+    "city_id": "255"
+}, {
+    "total": 676,
+    "nome": "Betim",
+    "uf": "MG",
+    "city_id": "4781"
+}, {
+    "total": 223,
+    "nome": "Bezerros",
+    "uf": "PE",
+    "city_id": "2638"
+}, {
+    "total": 247,
+    "nome": "Birigui",
+    "uf": "SP",
+    "city_id": "315"
+}, {
+    "total": 571,
+    "nome": "Blumenau",
+    "uf": "SC",
+    "city_id": "4140"
+}, {
+    "total": 110,
+    "nome": "Boa Viagem",
+    "uf": "CE",
+    "city_id": "1334"
+}, {
+    "total": 714,
+    "nome": "Boa Vista",
+    "uf": "RR",
+    "city_id": "3621"
+}, {
+    "total": 111,
+    "nome": "Boituva",
+    "uf": "SP",
+    "city_id": "25"
+}, {
+    "total": 103,
+    "nome": "Bom Despacho",
+    "uf": "MG",
+    "city_id": "5027"
+}, {
+    "total": 105,
+    "nome": "Bom Jardim",
+    "uf": "PE",
+    "city_id": "2641"
+}, {
+    "total": 149,
+    "nome": "Bom Jesus do Itabapoana",
+    "uf": "RJ",
+    "city_id": "4693"
+}, {
+    "total": 114,
+    "nome": "Bonito",
+    "uf": "PE",
+    "city_id": "2642"
+}, {
+    "total": 389,
+    "nome": "Botucatu",
+    "uf": "SP",
+    "city_id": "18"
+}, {
+    "total": 114,
+    "nome": "Bragança",
+    "uf": "PA",
+    "city_id": "2276"
+}, {
+    "total": 449,
+    "nome": "Bragança Paulista",
+    "uf": "SP",
+    "city_id": "27"
+}, {
+    "total": 947,
+    "nome": "Brasília",
+    "uf": "DF",
+    "city_id": "1457"
+}, {
+    "total": 120,
+    "nome": "Brejo da Madre de Deus",
+    "uf": "PE",
+    "city_id": "2645"
+}, {
+    "total": 202,
+    "nome": "Brusque",
+    "uf": "SC",
+    "city_id": "4168"
+}, {
+    "total": 423,
+    "nome": "Cabo de Santo Agostinho",
+    "uf": "PE",
+    "city_id": "2597"
+}, {
+    "total": 674,
+    "nome": "Cabo Frio",
+    "uf": "RJ",
+    "city_id": "4694"
+}, {
+    "total": 169,
+    "nome": "Caçador",
+    "uf": "SC",
+    "city_id": "4145"
+}, {
+    "total": 198,
+    "nome": "Caçapava",
+    "uf": "SP",
+    "city_id": "82"
+}, {
+    "total": 101,
+    "nome": "Caçapava do Sul",
+    "uf": "RS",
+    "city_id": "3629"
+}, {
+    "total": 200,
+    "nome": "C\u00e1ceres",
+    "uf": "MT",
+    "city_id": "2148"
+}, {
+    "total": 299,
+    "nome": "Cachoeira do Sul",
+    "uf": "RS",
+    "city_id": "3694"
+}, {
+    "total": 175,
+    "nome": "Cachoeiras de Macacu",
+    "uf": "RJ",
+    "city_id": "4674"
+}, {
+    "total": 195,
+    "nome": "Cachoeirinha",
+    "uf": "RS",
+    "city_id": "5593"
+}, {
+    "total": 459,
+    "nome": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "city_id": "1499"
+}, {
+    "total": 175,
+    "nome": "Cacoal",
+    "uf": "RO",
+    "city_id": "3570"
+}, {
+    "total": 176,
+    "nome": "Caieiras",
+    "uf": "SP",
+    "city_id": "214"
+}, {
+    "total": 111,
+    "nome": "Cajamar",
+    "uf": "SP",
+    "city_id": "72"
+}, {
+    "total": 187,
+    "nome": "Cajazeiras",
+    "uf": "PB",
+    "city_id": "2456"
+}, {
+    "total": 120,
+    "nome": "Caldas Novas",
+    "uf": "GO",
+    "city_id": "1575"
+}, {
+    "total": 134,
+    "nome": "Camaçari",
+    "uf": "BA",
+    "city_id": "857"
+}, {
+    "total": 135,
+    "nome": "Camaqua",
+    "uf": "RS",
+    "city_id": "3630"
+}, {
+    "total": 313,
+    "nome": "Camaragibe",
+    "uf": "PE",
+    "city_id": "2614"
+}, {
+    "total": 215,
+    "nome": "Cambe",
+    "uf": "PR",
+    "city_id": "3064"
+}, {
+    "total": 1190,
+    "nome": "Campina Grande",
+    "uf": "PB",
+    "city_id": "2364"
+}, {
+    "total": 143,
+    "nome": "Campina Grande do Sul",
+    "uf": "PR",
+    "city_id": "3138"
+}, {
+    "total": 2798,
+    "nome": "Campinas",
+    "uf": "SP",
+    "city_id": "8"
+}, {
+    "total": 151,
+    "nome": "Campo Belo",
+    "uf": "MG",
+    "city_id": "4823"
+}, {
+    "total": 133,
+    "nome": "Campo Bom",
+    "uf": "RS",
+    "city_id": "3691"
+}, {
+    "total": 1650,
+    "nome": "Campo Grande",
+    "uf": "MS",
+    "city_id": "2005"
+}, {
+    "total": 454,
+    "nome": "Campo Largo",
+    "uf": "PR",
+    "city_id": "3012"
+}, {
+    "total": 114,
+    "nome": "Campo Limpo Paulista",
+    "uf": "SP",
+    "city_id": "76"
+}, {
+    "total": 257,
+    "nome": "Campo Mourao",
+    "uf": "PR",
+    "city_id": "3017"
+}, {
+    "total": 122,
+    "nome": "Campos do Jordão",
+    "uf": "SP",
+    "city_id": "154"
+}, {
+    "total": 1337,
+    "nome": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "city_id": "4634"
+}, {
+    "total": 141,
+    "nome": "Candeias",
+    "uf": "BA",
+    "city_id": "856"
+}, {
+    "total": 102,
+    "nome": "C\u00e2ndido Mota",
+    "uf": "SP",
+    "city_id": "335"
+}, {
+    "total": 145,
+    "nome": "Canguçu",
+    "uf": "RS",
+    "city_id": "3987"
+}, {
+    "total": 182,
+    "nome": "Canindé",
+    "uf": "CE",
+    "city_id": "1338"
+}, {
+    "total": 716,
+    "nome": "Canoas",
+    "uf": "RS",
+    "city_id": "3658"
+}, {
+    "total": 128,
+    "nome": "Canoinhas",
+    "uf": "SC",
+    "city_id": "4286"
+}, {
+    "total": 123,
+    "nome": "Capão Bonito",
+    "uf": "SP",
+    "city_id": "162"
+}, {
+    "total": 124,
+    "nome": "Capivari",
+    "uf": "SP",
+    "city_id": "61"
+}, {
+    "total": 310,
+    "nome": "Caraguatatuba",
+    "uf": "SP",
+    "city_id": "35"
+}, {
+    "total": 104,
+    "nome": "Carangola",
+    "uf": "MG",
+    "city_id": "5080"
+}, {
+    "total": 603,
+    "nome": "Carapicuiba",
+    "uf": "SP",
+    "city_id": "36"
+}, {
+    "total": 206,
+    "nome": "Caratinga",
+    "uf": "MG",
+    "city_id": "5081"
+}, {
+    "total": 186,
+    "nome": "Carazinho",
+    "uf": "RS",
+    "city_id": "3988"
+}, {
+    "total": 818,
+    "nome": "Cariacica",
+    "uf": "ES",
+    "city_id": "1461"
+}, {
+    "total": 190,
+    "nome": "Carpina",
+    "uf": "PE",
+    "city_id": "2658"
+}, {
+    "total": 839,
+    "nome": "Caruaru",
+    "uf": "PE",
+    "city_id": "2589"
+}, {
+    "total": 740,
+    "nome": "Cascavel",
+    "uf": "PR",
+    "city_id": "3000"
+}, {
+    "total": 147,
+    "nome": "Castro",
+    "uf": "PR",
+    "city_id": "3014"
+}, {
+    "total": 113,
+    "nome": "Cataguases",
+    "uf": "MG",
+    "city_id": "4795"
+}, {
+    "total": 175,
+    "nome": "Catalao",
+    "uf": "GO",
+    "city_id": "1570"
+}, {
+    "total": 457,
+    "nome": "Catanduva",
+    "uf": "SP",
+    "city_id": "37"
+}, {
+    "total": 532,
+    "nome": "Caucaia",
+    "uf": "CE",
+    "city_id": "1270"
+}, {
+    "total": 179,
+    "nome": "Caxias",
+    "uf": "MA",
+    "city_id": "1900"
+}, {
+    "total": 1048,
+    "nome": "Caxias do Sul",
+    "uf": "RS",
+    "city_id": "3649"
+}, {
+    "total": 135,
+    "nome": "Cear\u00e1-Mirim",
+    "uf": "RN",
+    "city_id": "3439"
+}, {
+    "total": 1051,
+    "nome": "Ceilandia",
+    "uf": "DF",
+    "city_id": "1455"
+}, {
+    "total": 106,
+    "nome": "Chapadinha",
+    "uf": "MA",
+    "city_id": "1901"
+}, {
+    "total": 337,
+    "nome": "Chapeco",
+    "uf": "SC",
+    "city_id": "4149"
+}, {
+    "total": 209,
+    "nome": "Cianorte",
+    "uf": "PR",
+    "city_id": "3147"
+}, {
+    "total": 290,
+    "nome": "Colatina",
+    "uf": "ES",
+    "city_id": "1479"
+}, {
+    "total": 381,
+    "nome": "Colombo",
+    "uf": "PR",
+    "city_id": "3031"
+}, {
+    "total": 163,
+    "nome": "Concordia",
+    "uf": "SC",
+    "city_id": "4139"
+}, {
+    "total": 270,
+    "nome": "Conselheiro Lafaiete",
+    "uf": "MG",
+    "city_id": "4818"
+}, {
+    "total": 972,
+    "nome": "Contagem",
+    "uf": "MG",
+    "city_id": "4754"
+}, {
+    "total": 157,
+    "nome": "Cornélio Proc\u00f3pio",
+    "uf": "PR",
+    "city_id": "3156"
+}, {
+    "total": 162,
+    "nome": "Coronel Fabriciano",
+    "uf": "MG",
+    "city_id": "4768"
+}, {
+    "total": 116,
+    "nome": "Cosmopolis",
+    "uf": "SP",
+    "city_id": "91"
+}, {
+    "total": 629,
+    "nome": "Cotia",
+    "uf": "SP",
+    "city_id": "11"
+}, {
+    "total": 112,
+    "nome": "Craíbas",
+    "uf": "AL",
+    "city_id": "769"
+}, {
+    "total": 242,
+    "nome": "Crato",
+    "uf": "CE",
+    "city_id": "1350"
+}, {
+    "total": 364,
+    "nome": "Criciuma",
+    "uf": "SC",
+    "city_id": "4177"
+}, {
+    "total": 188,
+    "nome": "Cruz Alta",
+    "uf": "RS",
+    "city_id": "3678"
+}, {
+    "total": 225,
+    "nome": "Cruzeiro",
+    "uf": "SP",
+    "city_id": "144"
+}, {
+    "total": 107,
+    "nome": "Cruzeiro do Sul",
+    "uf": "AC",
+    "city_id": "647"
+}, {
+    "total": 253,
+    "nome": "Cubatão",
+    "uf": "SP",
+    "city_id": "12"
+}, {
+    "total": 1423,
+    "nome": "Cuiaba",
+    "uf": "MT",
+    "city_id": "2104"
+}, {
+    "total": 3508,
+    "nome": "Curitiba",
+    "uf": "PR",
+    "city_id": "3009"
+}, {
+    "total": 101,
+    "nome": "Curitibanos",
+    "uf": "SC",
+    "city_id": "4291"
+}, {
+    "total": 124,
+    "nome": "Currais Novos",
+    "uf": "RN",
+    "city_id": "3444"
+}, {
+    "total": 107,
+    "nome": "Curvelo",
+    "uf": "MG",
+    "city_id": "4931"
+}, {
+    "total": 720,
+    "nome": "Diadema",
+    "uf": "SP",
+    "city_id": "51"
+}, {
+    "total": 110,
+    "nome": "Dias D'\u00c1vila",
+    "uf": "BA",
+    "city_id": "878"
+}, {
+    "total": 403,
+    "nome": "Divinopolis",
+    "uf": "MG",
+    "city_id": "4777"
+}, {
+    "total": 485,
+    "nome": "Dourados",
+    "uf": "MS",
+    "city_id": "2033"
+}, {
+    "total": 152,
+    "nome": "Dracena",
+    "uf": "SP",
+    "city_id": "121"
+}, {
+    "total": 1459,
+    "nome": "Duque de Caxias",
+    "uf": "RJ",
+    "city_id": "4658"
+}, {
+    "total": 370,
+    "nome": "Embu das Artes",
+    "uf": "SP",
+    "city_id": "73"
+}, {
+    "total": 156,
+    "nome": "Emb\u00fa-Guaçu",
+    "uf": "SP",
+    "city_id": "161"
+}, {
+    "total": 238,
+    "nome": "Erechim",
+    "uf": "RS",
+    "city_id": "3675"
+}, {
+    "total": 194,
+    "nome": "Escada",
+    "uf": "PE",
+    "city_id": "2668"
+}, {
+    "total": 124,
+    "nome": "Espírito Santo do Pinhal",
+    "uf": "SP",
+    "city_id": "519"
+}, {
+    "total": 121,
+    "nome": "Est\u00e2ncia",
+    "uf": "SE",
+    "city_id": "4443"
+}, {
+    "total": 165,
+    "nome": "Esteio",
+    "uf": "RS",
+    "city_id": "3648"
+}, {
+    "total": 233,
+    "nome": "Eunapolis",
+    "uf": "BA",
+    "city_id": "849"
+}, {
+    "total": 111,
+    "nome": "Farroupilha",
+    "uf": "RS",
+    "city_id": "3653"
+}, {
+    "total": 133,
+    "nome": "Fazenda Rio Grande",
+    "uf": "PR",
+    "city_id": "3034"
+}, {
+    "total": 1095,
+    "nome": "Feira de Santana",
+    "uf": "BA",
+    "city_id": "868"
+}, {
+    "total": 213,
+    "nome": "Fernand\u00f3polis",
+    "uf": "SP",
+    "city_id": "372"
+}, {
+    "total": 323,
+    "nome": "Ferraz de Vasconcelos",
+    "uf": "SP",
+    "city_id": "163"
+}, {
+    "total": 117,
+    "nome": "Floriano",
+    "uf": "PI",
+    "city_id": "2887"
+}, {
+    "total": 666,
+    "nome": "Florianopolis",
+    "uf": "SC",
+    "city_id": "4152"
+}, {
+    "total": 174,
+    "nome": "Formiga",
+    "uf": "MG",
+    "city_id": "4924"
+}, {
+    "total": 164,
+    "nome": "Formosa",
+    "uf": "GO",
+    "city_id": "1650"
+}, {
+    "total": 8824,
+    "nome": "Fortaleza",
+    "uf": "CE",
+    "city_id": "1280"
+}, {
+    "total": 564,
+    "nome": "Foz do Iguaçu",
+    "uf": "PR",
+    "city_id": "3004"
+}, {
+    "total": 842,
+    "nome": "Franca",
+    "uf": "SP",
+    "city_id": "34"
+}, {
+    "total": 132,
+    "nome": "Francisco Beltrao",
+    "uf": "PR",
+    "city_id": "3018"
+}, {
+    "total": 320,
+    "nome": "Francisco Morato",
+    "uf": "SP",
+    "city_id": "378"
+}, {
+    "total": 334,
+    "nome": "Franco da Rocha",
+    "uf": "SP",
+    "city_id": "128"
+}, {
+    "total": 599,
+    "nome": "Gama",
+    "uf": "DF",
+    "city_id": "1458"
+}, {
+    "total": 283,
+    "nome": "Garanhuns",
+    "uf": "PE",
+    "city_id": "2721"
+}, {
+    "total": 130,
+    "nome": "Garça",
+    "uf": "SP",
+    "city_id": "40"
+}, {
+    "total": 170,
+    "nome": "Goiana",
+    "uf": "PE",
+    "city_id": "2613"
+}, {
+    "total": 143,
+    "nome": "Goianésia",
+    "uf": "GO",
+    "city_id": "1654"
+}, {
+    "total": 3407,
+    "nome": "Goi\u00e2nia",
+    "uf": "GO",
+    "city_id": "1574"
+}, {
+    "total": 733,
+    "nome": "Governador Valadares",
+    "uf": "MG",
+    "city_id": "4815"
+}, {
+    "total": 196,
+    "nome": "Gravat\u00e1",
+    "uf": "PE",
+    "city_id": "2678"
+}, {
+    "total": 453,
+    "nome": "Gravatai",
+    "uf": "RS",
+    "city_id": "3650"
+}, {
+    "total": 122,
+    "nome": "Guanambi",
+    "uf": "BA",
+    "city_id": "1057"
+}, {
+    "total": 136,
+    "nome": "Guapimirim",
+    "uf": "RJ",
+    "city_id": "4669"
+}, {
+    "total": 595,
+    "nome": "Guar\u00e1",
+    "uf": "DF",
+    "city_id": "5585"
+}, {
+    "total": 118,
+    "nome": "Guarabira",
+    "uf": "PB",
+    "city_id": "2479"
+}, {
+    "total": 235,
+    "nome": "Guarapari",
+    "uf": "ES",
+    "city_id": "1472"
+}, {
+    "total": 393,
+    "nome": "Guarapuava",
+    "uf": "PR",
+    "city_id": "3008"
+}, {
+    "total": 104,
+    "nome": "Guararapes",
+    "uf": "SP",
+    "city_id": "394"
+}, {
+    "total": 325,
+    "nome": "Guaratingueta",
+    "uf": "SP",
+    "city_id": "81"
+}, {
+    "total": 825,
+    "nome": "Guaruja",
+    "uf": "SP",
+    "city_id": "43"
+}, {
+    "total": 2815,
+    "nome": "Guarulhos",
+    "uf": "SP",
+    "city_id": "47"
+}, {
+    "total": 155,
+    "nome": "Guaxupé",
+    "uf": "MG",
+    "city_id": "4734"
+}, {
+    "total": 109,
+    "nome": "Gurupi",
+    "uf": "TO",
+    "city_id": "4533"
+}, {
+    "total": 122,
+    "nome": "Horizonte",
+    "uf": "CE",
+    "city_id": "1272"
+}, {
+    "total": 359,
+    "nome": "Hortol\u00e2ndia",
+    "uf": "SP",
+    "city_id": "79"
+}, {
+    "total": 123,
+    "nome": "Ibipora",
+    "uf": "PR",
+    "city_id": "3037"
+}, {
+    "total": 235,
+    "nome": "Ibirité",
+    "uf": "MG",
+    "city_id": "4809"
+}, {
+    "total": 150,
+    "nome": "Ibitinga",
+    "uf": "SP",
+    "city_id": "400"
+}, {
+    "total": 176,
+    "nome": "Ibi\u00fana",
+    "uf": "SP",
+    "city_id": "401"
+}, {
+    "total": 121,
+    "nome": "Içara",
+    "uf": "SC",
+    "city_id": "4129"
+}, {
+    "total": 104,
+    "nome": "Ic\u00f3",
+    "uf": "CE",
+    "city_id": "1362"
+}, {
+    "total": 220,
+    "nome": "Igarassu",
+    "uf": "PE",
+    "city_id": "2601"
+}, {
+    "total": 104,
+    "nome": "Iguaba Grande",
+    "uf": "RJ",
+    "city_id": "4679"
+}, {
+    "total": 212,
+    "nome": "Ijui",
+    "uf": "RS",
+    "city_id": "3703"
+}, {
+    "total": 504,
+    "nome": "Ilheus",
+    "uf": "BA",
+    "city_id": "871"
+}, {
+    "total": 117,
+    "nome": "Imbituba",
+    "uf": "SC",
+    "city_id": "4150"
+}, {
+    "total": 366,
+    "nome": "Imperatriz",
+    "uf": "MA",
+    "city_id": "1913"
+}, {
+    "total": 113,
+    "nome": "Indaial",
+    "uf": "SC",
+    "city_id": "4157"
+}, {
+    "total": 476,
+    "nome": "Indaiatuba",
+    "uf": "SP",
+    "city_id": "90"
+}, {
+    "total": 123,
+    "nome": "Inhumas",
+    "uf": "GO",
+    "city_id": "1665"
+}, {
+    "total": 478,
+    "nome": "Ipatinga",
+    "uf": "MG",
+    "city_id": "4738"
+}, {
+    "total": 157,
+    "nome": "Ipojuca",
+    "uf": "PE",
+    "city_id": "2602"
+}, {
+    "total": 141,
+    "nome": "Irati",
+    "uf": "PR",
+    "city_id": "3192"
+}, {
+    "total": 103,
+    "nome": "Irec\u00ea",
+    "uf": "BA",
+    "city_id": "1084"
+}, {
+    "total": 216,
+    "nome": "Itabaiana",
+    "uf": "SE",
+    "city_id": "4451"
+}, {
+    "total": 114,
+    "nome": "Itaberaba",
+    "uf": "BA",
+    "city_id": "1085"
+}, {
+    "total": 208,
+    "nome": "Itabira",
+    "uf": "MG",
+    "city_id": "4779"
+}, {
+    "total": 101,
+    "nome": "Itabirito",
+    "uf": "MG",
+    "city_id": "4762"
+}, {
+    "total": 799,
+    "nome": "Itaborai",
+    "uf": "RJ",
+    "city_id": "4662"
+}, {
+    "total": 608,
+    "nome": "Itabuna",
+    "uf": "BA",
+    "city_id": "859"
+}, {
+    "total": 378,
+    "nome": "Itaguai",
+    "uf": "RJ",
+    "city_id": "4660"
+}, {
+    "total": 212,
+    "nome": "Itaituba",
+    "uf": "PA",
+    "city_id": "2294"
+}, {
+    "total": 450,
+    "nome": "Itajai",
+    "uf": "SC",
+    "city_id": "4176"
+}, {
+    "total": 279,
+    "nome": "Itajuba",
+    "uf": "MG",
+    "city_id": "4800"
+}, {
+    "total": 169,
+    "nome": "Itamaraju",
+    "uf": "BA",
+    "city_id": "874"
+}, {
+    "total": 300,
+    "nome": "Itanhaém",
+    "uf": "SP",
+    "city_id": "419"
+}, {
+    "total": 414,
+    "nome": "Itapecerica da Serra",
+    "uf": "SP",
+    "city_id": "49"
+}, {
+    "total": 330,
+    "nome": "Itaperuna",
+    "uf": "RJ",
+    "city_id": "4636"
+}, {
+    "total": 110,
+    "nome": "Itapetinga",
+    "uf": "BA",
+    "city_id": "860"
+}, {
+    "total": 342,
+    "nome": "Itapetininga",
+    "uf": "SP",
+    "city_id": "52"
+}, {
+    "total": 251,
+    "nome": "Itapeva",
+    "uf": "SP",
+    "city_id": "80"
+}, {
+    "total": 440,
+    "nome": "Itapevi",
+    "uf": "SP",
+    "city_id": "108"
+}, {
+    "total": 173,
+    "nome": "Itapira",
+    "uf": "SP",
+    "city_id": "149"
+}, {
+    "total": 119,
+    "nome": "It\u00e1polis",
+    "uf": "SP",
+    "city_id": "420"
+}, {
+    "total": 528,
+    "nome": "Itaquaquecetuba",
+    "uf": "SP",
+    "city_id": "134"
+}, {
+    "total": 134,
+    "nome": "Itararé",
+    "uf": "SP",
+    "city_id": "424"
+}, {
+    "total": 237,
+    "nome": "Itatiba",
+    "uf": "SP",
+    "city_id": "15"
+}, {
+    "total": 232,
+    "nome": "Itauna",
+    "uf": "MG",
+    "city_id": "4923"
+}, {
+    "total": 378,
+    "nome": "Itu",
+    "uf": "SP",
+    "city_id": "141"
+}, {
+    "total": 249,
+    "nome": "Ituiutaba",
+    "uf": "MG",
+    "city_id": "4785"
+}, {
+    "total": 118,
+    "nome": "Ivaiporã",
+    "uf": "PR",
+    "city_id": "3200"
+}, {
+    "total": 1295,
+    "nome": "Jaboatao dos Guararapes",
+    "uf": "PE",
+    "city_id": "2600"
+}, {
+    "total": 184,
+    "nome": "Jaboticabal",
+    "uf": "SP",
+    "city_id": "148"
+}, {
+    "total": 534,
+    "nome": "Jacarei",
+    "uf": "SP",
+    "city_id": "28"
+}, {
+    "total": 112,
+    "nome": "Jacobina",
+    "uf": "BA",
+    "city_id": "870"
+}, {
+    "total": 106,
+    "nome": "Jaguariuna",
+    "uf": "SP",
+    "city_id": "59"
+}, {
+    "total": 151,
+    "nome": "Jales",
+    "uf": "SP",
+    "city_id": "433"
+}, {
+    "total": 105,
+    "nome": "Jana\u00faba",
+    "uf": "MG",
+    "city_id": "5267"
+}, {
+    "total": 161,
+    "nome": "Jandira",
+    "uf": "SP",
+    "city_id": "210"
+}, {
+    "total": 151,
+    "nome": "Japeri",
+    "uf": "RJ",
+    "city_id": "4686"
+}, {
+    "total": 271,
+    "nome": "Jaragu\u00e1 do Sul",
+    "uf": "SC",
+    "city_id": "4163"
+}, {
+    "total": 122,
+    "nome": "Jataí",
+    "uf": "GO",
+    "city_id": "1678"
+}, {
+    "total": 353,
+    "nome": "Jau",
+    "uf": "SP",
+    "city_id": "32"
+}, {
+    "total": 334,
+    "nome": "Jequié",
+    "uf": "BA",
+    "city_id": "1111"
+}, {
+    "total": 255,
+    "nome": "Ji-Paran\u00e1",
+    "uf": "RO",
+    "city_id": "3563"
+}, {
+    "total": 162,
+    "nome": "Joao Monlevade",
+    "uf": "MG",
+    "city_id": "4935"
+}, {
+    "total": 1648,
+    "nome": "Joao Pessoa",
+    "uf": "PB",
+    "city_id": "2366"
+}, {
+    "total": 984,
+    "nome": "Joinville",
+    "uf": "SC",
+    "city_id": "4143"
+}, {
+    "total": 242,
+    "nome": "Juazeiro",
+    "uf": "BA",
+    "city_id": "873"
+}, {
+    "total": 519,
+    "nome": "Juazeiro do Norte",
+    "uf": "CE",
+    "city_id": "1381"
+}, {
+    "total": 1563,
+    "nome": "Juiz de Fora",
+    "uf": "MG",
+    "city_id": "4739"
+}, {
+    "total": 1316,
+    "nome": "Jundiai",
+    "uf": "SP",
+    "city_id": "78"
+}, {
+    "total": 169,
+    "nome": "Lagarto",
+    "uf": "SE",
+    "city_id": "4457"
+}, {
+    "total": 383,
+    "nome": "Lages",
+    "uf": "SC",
+    "city_id": "4148"
+}, {
+    "total": 142,
+    "nome": "Laguna",
+    "uf": "SC",
+    "city_id": "4320"
+}, {
+    "total": 188,
+    "nome": "Lajeado",
+    "uf": "RS",
+    "city_id": "3683"
+}, {
+    "total": 134,
+    "nome": "Lajedo",
+    "uf": "PE",
+    "city_id": "2699"
+}, {
+    "total": 240,
+    "nome": "Lavras",
+    "uf": "MG",
+    "city_id": "5294"
+}, {
+    "total": 236,
+    "nome": "Leme",
+    "uf": "SP",
+    "city_id": "187"
+}, {
+    "total": 133,
+    "nome": "Lenç\u00f3is Paulista",
+    "uf": "SP",
+    "city_id": "441"
+}, {
+    "total": 144,
+    "nome": "Leopoldina",
+    "uf": "MG",
+    "city_id": "4824"
+}, {
+    "total": 726,
+    "nome": "Limeira",
+    "uf": "SP",
+    "city_id": "19"
+}, {
+    "total": 142,
+    "nome": "Limoeiro",
+    "uf": "PE",
+    "city_id": "2700"
+}, {
+    "total": 114,
+    "nome": "Limoeiro do Norte",
+    "uf": "CE",
+    "city_id": "1384"
+}, {
+    "total": 275,
+    "nome": "Linhares",
+    "uf": "ES",
+    "city_id": "1468"
+}, {
+    "total": 280,
+    "nome": "Lins",
+    "uf": "SP",
+    "city_id": "54"
+}, {
+    "total": 1299,
+    "nome": "Londrina",
+    "uf": "PR",
+    "city_id": "3021"
+}, {
+    "total": 247,
+    "nome": "Lorena",
+    "uf": "SP",
+    "city_id": "83"
+}, {
+    "total": 103,
+    "nome": "Lucas do Rio Verde",
+    "uf": "MT",
+    "city_id": "2217"
+}, {
+    "total": 553,
+    "nome": "Macae",
+    "uf": "RJ",
+    "city_id": "4637"
+}, {
+    "total": 135,
+    "nome": "Macaíba",
+    "uf": "RN",
+    "city_id": "3483"
+}, {
+    "total": 440,
+    "nome": "Macapa",
+    "uf": "AP",
+    "city_id": "833"
+}, {
+    "total": 2622,
+    "nome": "Maceio",
+    "uf": "AL",
+    "city_id": "670"
+}, {
+    "total": 126,
+    "nome": "Mafra",
+    "uf": "SC",
+    "city_id": "4175"
+}, {
+    "total": 769,
+    "nome": "Mage",
+    "uf": "RJ",
+    "city_id": "4638"
+}, {
+    "total": 194,
+    "nome": "Mairiporã",
+    "uf": "SP",
+    "city_id": "55"
+}, {
+    "total": 111,
+    "nome": "Mamanguape",
+    "uf": "PB",
+    "city_id": "2505"
+}, {
+    "total": 6748,
+    "nome": "Manaus",
+    "uf": "AM",
+    "city_id": "771"
+}, {
+    "total": 209,
+    "nome": "Manhuaçu",
+    "uf": "MG",
+    "city_id": "5303"
+}, {
+    "total": 297,
+    "nome": "Maraba",
+    "uf": "PA",
+    "city_id": "2220"
+}, {
+    "total": 383,
+    "nome": "Maracanau",
+    "uf": "CE",
+    "city_id": "1273"
+}, {
+    "total": 447,
+    "nome": "Maric\u00e1",
+    "uf": "RJ",
+    "city_id": "4701"
+}, {
+    "total": 609,
+    "nome": "Marilia",
+    "uf": "SP",
+    "city_id": "16"
+}, {
+    "total": 901,
+    "nome": "Maringa",
+    "uf": "PR",
+    "city_id": "3005"
+}, {
+    "total": 195,
+    "nome": "Matão",
+    "uf": "SP",
+    "city_id": "68"
+}, {
+    "total": 764,
+    "nome": "Maua",
+    "uf": "SP",
+    "city_id": "46"
+}, {
+    "total": 507,
+    "nome": "Mesquita",
+    "uf": "RJ",
+    "city_id": "4670"
+}, {
+    "total": 125,
+    "nome": "Miguel Pereira",
+    "uf": "RJ",
+    "city_id": "4703"
+}, {
+    "total": 134,
+    "nome": "Mirassol",
+    "uf": "SP",
+    "city_id": "132"
+}, {
+    "total": 196,
+    "nome": "Mococa",
+    "uf": "SP",
+    "city_id": "17"
+}, {
+    "total": 1300,
+    "nome": "Mogi das Cruzes",
+    "uf": "SP",
+    "city_id": "62"
+}, {
+    "total": 377,
+    "nome": "Mogi Guaçu",
+    "uf": "SP",
+    "city_id": "93"
+}, {
+    "total": 235,
+    "nome": "Mogi Mirim",
+    "uf": "SP",
+    "city_id": "86"
+}, {
+    "total": 178,
+    "nome": "Mongagu\u00e1",
+    "uf": "SP",
+    "city_id": "467"
+}, {
+    "total": 113,
+    "nome": "Monte Alto",
+    "uf": "SP",
+    "city_id": "468"
+}, {
+    "total": 124,
+    "nome": "Monte Mor",
+    "uf": "SP",
+    "city_id": "66"
+}, {
+    "total": 140,
+    "nome": "Montenegro",
+    "uf": "RS",
+    "city_id": "3663"
+}, {
+    "total": 672,
+    "nome": "Montes Claros",
+    "uf": "MG",
+    "city_id": "4778"
+}, {
+    "total": 114,
+    "nome": "Morada Nova",
+    "uf": "CE",
+    "city_id": "1281"
+}, {
+    "total": 163,
+    "nome": "Moreno",
+    "uf": "PE",
+    "city_id": "2705"
+}, {
+    "total": 109,
+    "nome": "Morrinhos",
+    "uf": "GO",
+    "city_id": "1694"
+}, {
+    "total": 606,
+    "nome": "Mossor\u00f3",
+    "uf": "RN",
+    "city_id": "3492"
+}, {
+    "total": 288,
+    "nome": "Muriae",
+    "uf": "MG",
+    "city_id": "4792"
+}, {
+    "total": 1522,
+    "nome": "Natal",
+    "uf": "RN",
+    "city_id": "3397"
+}, {
+    "total": 124,
+    "nome": "Navegantes",
+    "uf": "SC",
+    "city_id": "4132"
+}, {
+    "total": 596,
+    "nome": "Nil\u00f3polis",
+    "uf": "RJ",
+    "city_id": "4706"
+}, {
+    "total": 2291,
+    "nome": "Niteroi",
+    "uf": "RJ",
+    "city_id": "4657"
+}, {
+    "total": 158,
+    "nome": "Nossa Senhora do Socorro",
+    "uf": "SE",
+    "city_id": "4421"
+}, {
+    "total": 607,
+    "nome": "Nova Friburgo",
+    "uf": "RJ",
+    "city_id": "4640"
+}, {
+    "total": 2623,
+    "nome": "Nova Iguaçu",
+    "uf": "RJ",
+    "city_id": "4653"
+}, {
+    "total": 238,
+    "nome": "Nova Lima",
+    "uf": "MG",
+    "city_id": "4828"
+}, {
+    "total": 116,
+    "nome": "Nova Odessa",
+    "uf": "SP",
+    "city_id": "146"
+}, {
+    "total": 544,
+    "nome": "Novo Hamburgo",
+    "uf": "RS",
+    "city_id": "3662"
+}, {
+    "total": 109,
+    "nome": "Novo Horizonte",
+    "uf": "SP",
+    "city_id": "484"
+}, {
+    "total": 513,
+    "nome": "N\u00facleo Bandeirantes",
+    "uf": "DF",
+    "city_id": "5591"
+}, {
+    "total": 109,
+    "nome": "Oeiras",
+    "uf": "PI",
+    "city_id": "2919"
+}, {
+    "total": 153,
+    "nome": "Olímpia",
+    "uf": "SP",
+    "city_id": "120"
+}, {
+    "total": 1055,
+    "nome": "Olinda",
+    "uf": "PE",
+    "city_id": "2596"
+}, {
+    "total": 102,
+    "nome": "Oliveira",
+    "uf": "MG",
+    "city_id": "5356"
+}, {
+    "total": 1556,
+    "nome": "Osasco",
+    "uf": "SP",
+    "city_id": "75"
+}, {
+    "total": 117,
+    "nome": "Ouricuri",
+    "uf": "PE",
+    "city_id": "2709"
+}, {
+    "total": 318,
+    "nome": "Ourinhos",
+    "uf": "SP",
+    "city_id": "114"
+}, {
+    "total": 135,
+    "nome": "Ouro Preto",
+    "uf": "MG",
+    "city_id": "4782"
+}, {
+    "total": 129,
+    "nome": "Pacajus",
+    "uf": "CE",
+    "city_id": "1275"
+}, {
+    "total": 101,
+    "nome": "Pacatuba",
+    "uf": "CE",
+    "city_id": "1402"
+}, {
+    "total": 110,
+    "nome": "Paço do Lumiar",
+    "uf": "MA",
+    "city_id": "1946"
+}, {
+    "total": 231,
+    "nome": "Palhoça",
+    "uf": "SC",
+    "city_id": "4171"
+}, {
+    "total": 149,
+    "nome": "Palmares",
+    "uf": "PE",
+    "city_id": "2710"
+}, {
+    "total": 111,
+    "nome": "Palmas",
+    "uf": "PR",
+    "city_id": "3249"
+}, {
+    "total": 377,
+    "nome": "Palmas",
+    "uf": "TO",
+    "city_id": "4633"
+}, {
+    "total": 165,
+    "nome": "Palmeira dos \u00cdndios",
+    "uf": "AL",
+    "city_id": "738"
+}, {
+    "total": 101,
+    "nome": "Paracambi",
+    "uf": "RJ",
+    "city_id": "4665"
+}, {
+    "total": 132,
+    "nome": "Paracatu",
+    "uf": "MG",
+    "city_id": "4804"
+}, {
+    "total": 130,
+    "nome": "Paragominas",
+    "uf": "PA",
+    "city_id": "2310"
+}, {
+    "total": 102,
+    "nome": "Paraguaçu Paulista",
+    "uf": "SP",
+    "city_id": "500"
+}, {
+    "total": 137,
+    "nome": "Paraiba do Sul",
+    "uf": "RJ",
+    "city_id": "4667"
+}, {
+    "total": 119,
+    "nome": "Paranaiba",
+    "uf": "MS",
+    "city_id": "2007"
+}, {
+    "total": 343,
+    "nome": "Paranavaí",
+    "uf": "PR",
+    "city_id": "3255"
+}, {
+    "total": 226,
+    "nome": "Parano\u00e1",
+    "uf": "DF",
+    "city_id": "5586"
+}, {
+    "total": 137,
+    "nome": "Parauapebas",
+    "uf": "PA",
+    "city_id": "2244"
+}, {
+    "total": 257,
+    "nome": "Pariquera-Açu",
+    "uf": "SP",
+    "city_id": "506"
+}, {
+    "total": 171,
+    "nome": "Parnaíba",
+    "uf": "PI",
+    "city_id": "2926"
+}, {
+    "total": 306,
+    "nome": "Parnamirim",
+    "uf": "RN",
+    "city_id": "3395"
+}, {
+    "total": 102,
+    "nome": "Passira",
+    "uf": "PE",
+    "city_id": "2715"
+}, {
+    "total": 753,
+    "nome": "Passo Fundo",
+    "uf": "RS",
+    "city_id": "3710"
+}, {
+    "total": 210,
+    "nome": "Pato Branco",
+    "uf": "PR",
+    "city_id": "3256"
+}, {
+    "total": 244,
+    "nome": "Patos",
+    "uf": "PB",
+    "city_id": "2524"
+}, {
+    "total": 317,
+    "nome": "Patos de Minas",
+    "uf": "MG",
+    "city_id": "4788"
+}, {
+    "total": 149,
+    "nome": "Patrocinio",
+    "uf": "MG",
+    "city_id": "4742"
+}, {
+    "total": 176,
+    "nome": "Paulinia",
+    "uf": "SP",
+    "city_id": "9"
+}, {
+    "total": 806,
+    "nome": "Paulista",
+    "uf": "PE",
+    "city_id": "2599"
+}, {
+    "total": 103,
+    "nome": "Pedreira",
+    "uf": "SP",
+    "city_id": "77"
+}, {
+    "total": 951,
+    "nome": "Pelotas",
+    "uf": "RS",
+    "city_id": "3697"
+}, {
+    "total": 152,
+    "nome": "Pen\u00e1polis",
+    "uf": "SP",
+    "city_id": "514"
+}, {
+    "total": 186,
+    "nome": "Peruíbe",
+    "uf": "SP",
+    "city_id": "516"
+}, {
+    "total": 137,
+    "nome": "Pesqueira",
+    "uf": "PE",
+    "city_id": "2718"
+}, {
+    "total": 559,
+    "nome": "Petrolina",
+    "uf": "PE",
+    "city_id": "2591"
+}, {
+    "total": 1064,
+    "nome": "Petropolis",
+    "uf": "RJ",
+    "city_id": "4648"
+}, {
+    "total": 124,
+    "nome": "Piedade",
+    "uf": "SP",
+    "city_id": "151"
+}, {
+    "total": 354,
+    "nome": "Pindamonhangaba",
+    "uf": "SP",
+    "city_id": "74"
+}, {
+    "total": 193,
+    "nome": "Pinhais",
+    "uf": "PR",
+    "city_id": "3022"
+}, {
+    "total": 964,
+    "nome": "Piracicaba",
+    "uf": "SP",
+    "city_id": "14"
+}, {
+    "total": 106,
+    "nome": "Pirapora",
+    "uf": "MG",
+    "city_id": "5402"
+}, {
+    "total": 182,
+    "nome": "Piraquara",
+    "uf": "PR",
+    "city_id": "3027"
+}, {
+    "total": 221,
+    "nome": "Pirassununga",
+    "uf": "SP",
+    "city_id": "243"
+}, {
+    "total": 165,
+    "nome": "Piripiri",
+    "uf": "PI",
+    "city_id": "2933"
+}, {
+    "total": 173,
+    "nome": "Planaltina",
+    "uf": "DF",
+    "city_id": "1456"
+}, {
+    "total": 159,
+    "nome": "Po\u00e1",
+    "uf": "SP",
+    "city_id": "119"
+}, {
+    "total": 424,
+    "nome": "Poços de Caldas",
+    "uf": "MG",
+    "city_id": "4797"
+}, {
+    "total": 771,
+    "nome": "Ponta Grossa",
+    "uf": "PR",
+    "city_id": "3019"
+}, {
+    "total": 194,
+    "nome": "Ponta Porã",
+    "uf": "MS",
+    "city_id": "2050"
+}, {
+    "total": 167,
+    "nome": "Ponte Nova",
+    "uf": "MG",
+    "city_id": "4744"
+}, {
+    "total": 5449,
+    "nome": "Porto Alegre",
+    "uf": "RS",
+    "city_id": "3647"
+}, {
+    "total": 105,
+    "nome": "Porto Feliz",
+    "uf": "SP",
+    "city_id": "218"
+}, {
+    "total": 122,
+    "nome": "Porto Ferreira",
+    "uf": "SP",
+    "city_id": "139"
+}, {
+    "total": 791,
+    "nome": "Porto Velho",
+    "uf": "RO",
+    "city_id": "3565"
+}, {
+    "total": 274,
+    "nome": "Pouso Alegre",
+    "uf": "MG",
+    "city_id": "4759"
+}, {
+    "total": 837,
+    "nome": "Praia Grande",
+    "uf": "SP",
+    "city_id": "536"
+}, {
+    "total": 112,
+    "nome": "Presidente Epit\u00e1cio",
+    "uf": "SP",
+    "city_id": "539"
+}, {
+    "total": 678,
+    "nome": "Presidente Prudente",
+    "uf": "SP",
+    "city_id": "96"
+}, {
+    "total": 105,
+    "nome": "Presidente Venceslau",
+    "uf": "SP",
+    "city_id": "540"
+}, {
+    "total": 124,
+    "nome": "Prudent\u00f3polis",
+    "uf": "PR",
+    "city_id": "3272"
+}, {
+    "total": 385,
+    "nome": "Queimados",
+    "uf": "RJ",
+    "city_id": "4655"
+}, {
+    "total": 133,
+    "nome": "Quixad\u00e1",
+    "uf": "CE",
+    "city_id": "1418"
+}, {
+    "total": 152,
+    "nome": "Quixeramobim",
+    "uf": "CE",
+    "city_id": "1419"
+}, {
+    "total": 7187,
+    "nome": "Recife",
+    "uf": "PE",
+    "city_id": "2603"
+}, {
+    "total": 144,
+    "nome": "Redenção",
+    "uf": "PA",
+    "city_id": "2337"
+}, {
+    "total": 128,
+    "nome": "Registro",
+    "uf": "SP",
+    "city_id": "138"
+}, {
+    "total": 335,
+    "nome": "Resende",
+    "uf": "RJ",
+    "city_id": "4654"
+}, {
+    "total": 322,
+    "nome": "Ribeirão das Neves",
+    "uf": "MG",
+    "city_id": "5428"
+}, {
+    "total": 193,
+    "nome": "Ribeirão Pires",
+    "uf": "SP",
+    "city_id": "7"
+}, {
+    "total": 1515,
+    "nome": "Ribeirão Preto",
+    "uf": "SP",
+    "city_id": "92"
+}, {
+    "total": 156,
+    "nome": "Rio Bonito",
+    "uf": "RJ",
+    "city_id": "4676"
+}, {
+    "total": 844,
+    "nome": "Rio Branco",
+    "uf": "AC",
+    "city_id": "650"
+}, {
+    "total": 486,
+    "nome": "Rio Claro",
+    "uf": "SP",
+    "city_id": "13"
+}, {
+    "total": 285,
+    "nome": "Rio das Ostras",
+    "uf": "RJ",
+    "city_id": "4683"
+}, {
+    "total": 25111,
+    "nome": "Rio de Janeiro",
+    "uf": "RJ",
+    "city_id": "4646"
+}, {
+    "total": 114,
+    "nome": "Rio do Sul",
+    "uf": "SC",
+    "city_id": "4134"
+}, {
+    "total": 613,
+    "nome": "Rio Grande",
+    "uf": "RS",
+    "city_id": "3660"
+}, {
+    "total": 119,
+    "nome": "Rio Largo",
+    "uf": "AL",
+    "city_id": "752"
+}, {
+    "total": 326,
+    "nome": "Rio Verde",
+    "uf": "GO",
+    "city_id": "1543"
+}, {
+    "total": 181,
+    "nome": "Rolandia",
+    "uf": "PR",
+    "city_id": "3006"
+}, {
+    "total": 282,
+    "nome": "Rondon\u00f3polis",
+    "uf": "MT",
+    "city_id": "2165"
+}, {
+    "total": 109,
+    "nome": "Ros\u00e1rio do Sul",
+    "uf": "RS",
+    "city_id": "4072"
+}, {
+    "total": 146,
+    "nome": "Russas",
+    "uf": "CE",
+    "city_id": "1422"
+}, {
+    "total": 193,
+    "nome": "Sabara",
+    "uf": "MG",
+    "city_id": "4767"
+}, {
+    "total": 135,
+    "nome": "Salgueiro",
+    "uf": "PE",
+    "city_id": "2730"
+}, {
+    "total": 278,
+    "nome": "Salto",
+    "uf": "SP",
+    "city_id": "10"
+}, {
+    "total": 4576,
+    "nome": "Salvador",
+    "uf": "BA",
+    "city_id": "855"
+}, {
+    "total": 168,
+    "nome": "Samambaia",
+    "uf": "DF",
+    "city_id": "5589"
+}, {
+    "total": 413,
+    "nome": "Santa Barbara D'oeste",
+    "uf": "SP",
+    "city_id": "58"
+}, {
+    "total": 144,
+    "nome": "Santa Cruz do Capibaribe",
+    "uf": "PE",
+    "city_id": "2733"
+}, {
+    "total": 328,
+    "nome": "Santa Cruz do Sul",
+    "uf": "RS",
+    "city_id": "3679"
+}, {
+    "total": 112,
+    "nome": "Santa Fé do Sul",
+    "uf": "SP",
+    "city_id": "572"
+}, {
+    "total": 103,
+    "nome": "Santa In\u00eas",
+    "uf": "MA",
+    "city_id": "1790"
+}, {
+    "total": 131,
+    "nome": "Santa Isabel",
+    "uf": "SP",
+    "city_id": "100"
+}, {
+    "total": 353,
+    "nome": "Santa Luzia",
+    "uf": "MG",
+    "city_id": "4789"
+}, {
+    "total": 723,
+    "nome": "Santa Maria",
+    "uf": "RS",
+    "city_id": "3657"
+}, {
+    "total": 257,
+    "nome": "Santa Rita",
+    "uf": "PB",
+    "city_id": "2553"
+}, {
+    "total": 164,
+    "nome": "Santa Rosa",
+    "uf": "RS",
+    "city_id": "3656"
+}, {
+    "total": 137,
+    "nome": "Santana de Parnaíba",
+    "uf": "SP",
+    "city_id": "131"
+}, {
+    "total": 231,
+    "nome": "Santana do Livramento",
+    "uf": "RS",
+    "city_id": "3661"
+}, {
+    "total": 449,
+    "nome": "Santarem",
+    "uf": "PA",
+    "city_id": "2240"
+}, {
+    "total": 127,
+    "nome": "Santiago",
+    "uf": "RS",
+    "city_id": "4076"
+}, {
+    "total": 2040,
+    "nome": "Santo Andre",
+    "uf": "SP",
+    "city_id": "5"
+}, {
+    "total": 226,
+    "nome": "Santo Angelo",
+    "uf": "RS",
+    "city_id": "3680"
+}, {
+    "total": 129,
+    "nome": "Santo Ant\u00f4nio da Platina",
+    "uf": "PR",
+    "city_id": "3303"
+}, {
+    "total": 118,
+    "nome": "Santo Ant\u00f4nio de P\u00e1dua",
+    "uf": "RJ",
+    "city_id": "4711"
+}, {
+    "total": 126,
+    "nome": "Santo Est\u00eavão",
+    "uf": "BA",
+    "city_id": "1211"
+}, {
+    "total": 1684,
+    "nome": "Santos",
+    "uf": "SP",
+    "city_id": "84"
+}, {
+    "total": 110,
+    "nome": "Santos Dumont",
+    "uf": "MG",
+    "city_id": "5482"
+}, {
+    "total": 110,
+    "nome": "São Benedito",
+    "uf": "CE",
+    "city_id": "1427"
+}, {
+    "total": 158,
+    "nome": "Sao Bento do Sul",
+    "uf": "SC",
+    "city_id": "4154"
+}, {
+    "total": 125,
+    "nome": "São Bento do Una",
+    "uf": "PE",
+    "city_id": "2737"
+}, {
+    "total": 1874,
+    "nome": "São Bernardo do Campo",
+    "uf": "SP",
+    "city_id": "2"
+}, {
+    "total": 159,
+    "nome": "São Borja",
+    "uf": "RS",
+    "city_id": "4080"
+}, {
+    "total": 529,
+    "nome": "São Caetano do Sul",
+    "uf": "SP",
+    "city_id": "4"
+}, {
+    "total": 574,
+    "nome": "São Carlos",
+    "uf": "SP",
+    "city_id": "129"
+}, {
+    "total": 184,
+    "nome": "São Gabriel",
+    "uf": "RS",
+    "city_id": "3636"
+}, {
+    "total": 2219,
+    "nome": "São Gonçalo",
+    "uf": "RJ",
+    "city_id": "4656"
+}, {
+    "total": 120,
+    "nome": "São Gonçalo do Amarante",
+    "uf": "RN",
+    "city_id": "3396"
+}, {
+    "total": 221,
+    "nome": "São João da Boa Vista",
+    "uf": "SP",
+    "city_id": "101"
+}, {
+    "total": 1349,
+    "nome": "São João de Meriti",
+    "uf": "RJ",
+    "city_id": "4643"
+}, {
+    "total": 247,
+    "nome": "São João Del Rei",
+    "uf": "MG",
+    "city_id": "4753"
+}, {
+    "total": 444,
+    "nome": "São José",
+    "uf": "SC",
+    "city_id": "4165"
+}, {
+    "total": 436,
+    "nome": "São José de Ribamar",
+    "uf": "MA",
+    "city_id": "1965"
+}, {
+    "total": 143,
+    "nome": "São José do Rio Pardo",
+    "uf": "SP",
+    "city_id": "102"
+}, {
+    "total": 1258,
+    "nome": "São José do Rio Preto",
+    "uf": "SP",
+    "city_id": "126"
+}, {
+    "total": 1504,
+    "nome": "São José dos Campos",
+    "uf": "SP",
+    "city_id": "29"
+}, {
+    "total": 493,
+    "nome": "São José dos Pinhais",
+    "uf": "PR",
+    "city_id": "3011"
+}, {
+    "total": 417,
+    "nome": "São Leopoldo",
+    "uf": "RS",
+    "city_id": "3666"
+}, {
+    "total": 115,
+    "nome": "São Lourenço",
+    "uf": "MG",
+    "city_id": "5509"
+}, {
+    "total": 212,
+    "nome": "São Lourenço da Mata",
+    "uf": "PE",
+    "city_id": "2594"
+}, {
+    "total": 128,
+    "nome": "São Lourenço do Sul",
+    "uf": "RS",
+    "city_id": "3637"
+}, {
+    "total": 2599,
+    "nome": "São Luís",
+    "uf": "MA",
+    "city_id": "1791"
+}, {
+    "total": 241,
+    "nome": "São Mateus",
+    "uf": "ES",
+    "city_id": "1474"
+}, {
+    "total": 33633,
+    "nome": "São Paulo",
+    "uf": "SP",
+    "city_id": "1"
+}, {
+    "total": 230,
+    "nome": "São Pedro da Aldeia",
+    "uf": "RJ",
+    "city_id": "4714"
+}, {
+    "total": 196,
+    "nome": "São Roque",
+    "uf": "SP",
+    "city_id": "215"
+}, {
+    "total": 148,
+    "nome": "São Sebastião",
+    "uf": "SP",
+    "city_id": "595"
+}, {
+    "total": 193,
+    "nome": "São Sebastião do Paraíso",
+    "uf": "MG",
+    "city_id": "4794"
+}, {
+    "total": 880,
+    "nome": "São Vicente",
+    "uf": "SP",
+    "city_id": "71"
+}, {
+    "total": 111,
+    "nome": "Sapé",
+    "uf": "PB",
+    "city_id": "2569"
+}, {
+    "total": 181,
+    "nome": "Sapiranga",
+    "uf": "RS",
+    "city_id": "3676"
+}, {
+    "total": 225,
+    "nome": "Sapucaia do Sul",
+    "uf": "RS",
+    "city_id": "3646"
+}, {
+    "total": 299,
+    "nome": "Saquarema",
+    "uf": "RJ",
+    "city_id": "4717"
+}, {
+    "total": 226,
+    "nome": "Sarandi",
+    "uf": "PR",
+    "city_id": "3374"
+}, {
+    "total": 141,
+    "nome": "Senador Canedo",
+    "uf": "GO",
+    "city_id": "1767"
+}, {
+    "total": 125,
+    "nome": "Senhor do Bonfim",
+    "uf": "BA",
+    "city_id": "1223"
+}, {
+    "total": 244,
+    "nome": "Seropedica",
+    "uf": "RJ",
+    "city_id": "4664"
+}, {
+    "total": 1121,
+    "nome": "Serra",
+    "uf": "ES",
+    "city_id": "1478"
+}, {
+    "total": 201,
+    "nome": "Serra Talhada",
+    "uf": "PE",
+    "city_id": "2745"
+}, {
+    "total": 294,
+    "nome": "Sertãozinho",
+    "uf": "SP",
+    "city_id": "202"
+}, {
+    "total": 438,
+    "nome": "Sete Lagoas",
+    "uf": "MG",
+    "city_id": "4760"
+}, {
+    "total": 210,
+    "nome": "Sim\u00f5es Filho",
+    "uf": "BA",
+    "city_id": "858"
+}, {
+    "total": 175,
+    "nome": "Sinop",
+    "uf": "MT",
+    "city_id": "2133"
+}, {
+    "total": 181,
+    "nome": "Sobradinho",
+    "uf": "DF",
+    "city_id": "1460"
+}, {
+    "total": 124,
+    "nome": "Socorro",
+    "uf": "SP",
+    "city_id": "217"
+}, {
+    "total": 1683,
+    "nome": "Sorocaba",
+    "uf": "SP",
+    "city_id": "53"
+}, {
+    "total": 163,
+    "nome": "Sousa",
+    "uf": "PB",
+    "city_id": "2578"
+}, {
+    "total": 519,
+    "nome": "Sumare",
+    "uf": "SP",
+    "city_id": "3"
+}, {
+    "total": 139,
+    "nome": "Surubim",
+    "uf": "PE",
+    "city_id": "2750"
+}, {
+    "total": 417,
+    "nome": "Suzano",
+    "uf": "SP",
+    "city_id": "65"
+}, {
+    "total": 556,
+    "nome": "Taboão da Serra",
+    "uf": "SP",
+    "city_id": "189"
+}, {
+    "total": 558,
+    "nome": "Taguatinga",
+    "uf": "DF",
+    "city_id": "1459"
+}, {
+    "total": 157,
+    "nome": "Taquaritinga",
+    "uf": "SP",
+    "city_id": "615"
+}, {
+    "total": 313,
+    "nome": "Tatui",
+    "uf": "SP",
+    "city_id": "194"
+}, {
+    "total": 139,
+    "nome": "Tau\u00e1",
+    "uf": "CE",
+    "city_id": "1435"
+}, {
+    "total": 782,
+    "nome": "Taubate",
+    "uf": "SP",
+    "city_id": "85"
+}, {
+    "total": 266,
+    "nome": "Teixeira de Freitas",
+    "uf": "BA",
+    "city_id": "884"
+}, {
+    "total": 170,
+    "nome": "Telemaco Borba",
+    "uf": "PR",
+    "city_id": "3025"
+}, {
+    "total": 306,
+    "nome": "Te\u00f3filo Otoni",
+    "uf": "MG",
+    "city_id": "5555"
+}, {
+    "total": 762,
+    "nome": "Teresina",
+    "uf": "PI",
+    "city_id": "2772"
+}, {
+    "total": 470,
+    "nome": "Teresopolis",
+    "uf": "RJ",
+    "city_id": "4644"
+}, {
+    "total": 113,
+    "nome": "Tiete",
+    "uf": "SP",
+    "city_id": "167"
+}, {
+    "total": 160,
+    "nome": "Timba\u00faba",
+    "uf": "PE",
+    "city_id": "2758"
+}, {
+    "total": 168,
+    "nome": "Timoteo",
+    "uf": "MG",
+    "city_id": "4763"
+}, {
+    "total": 237,
+    "nome": "Toledo",
+    "uf": "PR",
+    "city_id": "3002"
+}, {
+    "total": 106,
+    "nome": "Torres",
+    "uf": "RS",
+    "city_id": "3699"
+}, {
+    "total": 140,
+    "nome": "Tramandaí",
+    "uf": "RS",
+    "city_id": "4106"
+}, {
+    "total": 153,
+    "nome": "Tr\u00eas Coraç\u00f5es",
+    "uf": "MG",
+    "city_id": "4755"
+}, {
+    "total": 257,
+    "nome": "Tr\u00eas Lagoas",
+    "uf": "MS",
+    "city_id": "2058"
+}, {
+    "total": 137,
+    "nome": "Tr\u00eas Pontas",
+    "uf": "MG",
+    "city_id": "5561"
+}, {
+    "total": 240,
+    "nome": "Tr\u00eas Rios",
+    "uf": "RJ",
+    "city_id": "4645"
+}, {
+    "total": 214,
+    "nome": "Tubarao",
+    "uf": "SC",
+    "city_id": "4146"
+}, {
+    "total": 184,
+    "nome": "Tupa",
+    "uf": "SP",
+    "city_id": "179"
+}, {
+    "total": 226,
+    "nome": "Ub\u00e1",
+    "uf": "MG",
+    "city_id": "5565"
+}, {
+    "total": 176,
+    "nome": "Ubatuba",
+    "uf": "SP",
+    "city_id": "627"
+}, {
+    "total": 743,
+    "nome": "Uberaba",
+    "uf": "MG",
+    "city_id": "4786"
+}, {
+    "total": 1291,
+    "nome": "Uberlandia",
+    "uf": "MG",
+    "city_id": "4784"
+}, {
+    "total": 333,
+    "nome": "Umuarama",
+    "uf": "PR",
+    "city_id": "3001"
+}, {
+    "total": 145,
+    "nome": "Unaí",
+    "uf": "MG",
+    "city_id": "5568"
+}, {
+    "total": 133,
+    "nome": "União da Vit\u00f3ria",
+    "uf": "PR",
+    "city_id": "3338"
+}, {
+    "total": 326,
+    "nome": "Uruguaiana",
+    "uf": "RS",
+    "city_id": "3640"
+}, {
+    "total": 214,
+    "nome": "Vacaria",
+    "uf": "RS",
+    "city_id": "3641"
+}, {
+    "total": 328,
+    "nome": "Valinhos",
+    "uf": "SP",
+    "city_id": "48"
+}, {
+    "total": 114,
+    "nome": "Valparaíso de Goi\u00e1s",
+    "uf": "GO",
+    "city_id": "1593"
+}, {
+    "total": 103,
+    "nome": "Vargem Grande do Sul",
+    "uf": "SP",
+    "city_id": "198"
+}, {
+    "total": 259,
+    "nome": "Varginha",
+    "uf": "MG",
+    "city_id": "4811"
+}, {
+    "total": 209,
+    "nome": "Vassouras",
+    "uf": "RJ",
+    "city_id": "4675"
+}, {
+    "total": 174,
+    "nome": "Ven\u00e2ncio Aires",
+    "uf": "RS",
+    "city_id": "4112"
+}, {
+    "total": 147,
+    "nome": "Vespasiano",
+    "uf": "MG",
+    "city_id": "4780"
+}, {
+    "total": 353,
+    "nome": "Viamao",
+    "uf": "RS",
+    "city_id": "3670"
+}, {
+    "total": 134,
+    "nome": "Viana",
+    "uf": "ES",
+    "city_id": "1464"
+}, {
+    "total": 134,
+    "nome": "Viçosa",
+    "uf": "MG",
+    "city_id": "5572"
+}, {
+    "total": 112,
+    "nome": "Videira",
+    "uf": "SC",
+    "city_id": "4166"
+}, {
+    "total": 1092,
+    "nome": "Vila Velha",
+    "uf": "ES",
+    "city_id": "1463"
+}, {
+    "total": 166,
+    "nome": "Vilhena",
+    "uf": "RO",
+    "city_id": "3574"
+}, {
+    "total": 156,
+    "nome": "Vinhedo",
+    "uf": "SP",
+    "city_id": "69"
+}, {
+    "total": 952,
+    "nome": "Vit\u00f3ria",
+    "uf": "ES",
+    "city_id": "1462"
+}, {
+    "total": 591,
+    "nome": "Vitoria da Conquista",
+    "uf": "BA",
+    "city_id": "883"
+}, {
+    "total": 464,
+    "nome": "Vit\u00f3ria de Santo Antão",
+    "uf": "PE",
+    "city_id": "2592"
+}, {
+    "total": 1107,
+    "nome": "Volta Redonda",
+    "uf": "RJ",
+    "city_id": "4650"
+}, {
+    "total": 194,
+    "nome": "Votorantim",
+    "uf": "SP",
+    "city_id": "33"
+}, {
+    "total": 271,
+    "nome": "Votuporanga",
+    "uf": "SP",
+    "city_id": "178"
+}]
