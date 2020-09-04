@@ -30,7 +30,7 @@ The following steps are optional:
 
 ## License
 
-MIT License
+[MIT License](https://github.com/andrematte/scraping-covid19-brazil/blob/master/LICENSE)
 
 
 
