@@ -1,4 +1,4 @@
-# Covid-Brazil-Scraping
+# Scraping COVID-19 Brazil
 This code scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil.
 
 <img src="images/sample-plot-ptrc.png" title="Github Logo">
