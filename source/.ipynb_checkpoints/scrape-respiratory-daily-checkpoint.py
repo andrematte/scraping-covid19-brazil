@@ -19,11 +19,11 @@ from utils import *
 # Set up death causes and dates to scrape
 causes = ['COVID', 'SRAG', 'PNEUMONIA', 'INSUFICIENCIA_RESPIRATORIA', 'SEPTICEMIA', 'INDETERMINADA', 'OUTRAS']
 
-start_date = '2020-01-01'
+start_date = pd.Timestamp(year=2020, month=1, day=1)
 end_date = pd.Timestamp.today()
 
 dates = pd.date_range(start_date, end_date)
-backdates = pd.date_range(start_date, end_date.replace(year=2019))
+backdates = pd.date_range(start_date.replace(year=2019), end_date.replace(year=2019))
 
 data_path = f"../data/Respiratory_RC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
 
