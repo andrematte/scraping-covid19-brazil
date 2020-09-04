@@ -1,14 +1,10 @@
 # Fill the section inside "{}" to choose the desired cities.
 
-{'BELEM': 'PA_Belém',
- 'FORTALEZA': 'CE_Fortaleza',
- 'MANAUS': 'AM_Manaus',
- 'RECIFE': 'PE_Recife',
- 'RIO DE JANEIRO': 'RJ_Rio de Janeiro',
+{ 'RIO DE JANEIRO': 'RJ_Rio de Janeiro',
  'SAO PAULO': 'SP_São Paulo',}
 
 
-
+# Copy samples from here
 #{'ARACAJU': 'SE_Aracaju',
 #'BELO HORIZONTE': 'MG_Belo Horizonte',
 #'BELEM': 'PA_Belém',
