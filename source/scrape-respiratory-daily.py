@@ -1,10 +1,10 @@
 # # Web Scraping of COVID-19 Data from the Brazilian Civil Registry
 # Author: André Mattos - carlos.mattos@itec.ufpa.br
-# 
-# 
+#
+#
 # - Scrapes daily data from https://transparencia.registrocivil.org.br/registral-covid
 # - Need to setup headers and city selection file
-# 
+#
 
 
 # Importing libraries
