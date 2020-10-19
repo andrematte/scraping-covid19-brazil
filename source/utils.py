@@ -38,7 +38,6 @@ def load_data():
     return city_select, cities, states, headers
 
 
-
 def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
     '''
         Scrapes the desired data and saves on the /data directory.
@@ -108,3 +107,74 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
         concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
 
 
+def scrape_data_cardiaco(cities, states, headers, dates, backdates, causes, data_path):
+    '''
+        Scrapes the desired data and saves on the /data directory.
+    '''
+    
+    try:
+        os.mkdir(data_path)
+    except:
+        pass
+
+    for state, city in zip(states.keys(), cities.keys()):
+
+        dataframe_2019 = pd.DataFrame(columns = causes)
+        dataframe_2020 = pd.DataFrame(columns = causes)
+        del dataframe_2019['COVID']
+
+        print(f'Scraping {city}, {state} data.')
+
+        for date, backdate in zip(dates.strftime('%Y-%m-%d'), backdates.strftime('%Y-%m-%d')):
+
+            print('Scraping the following date: ', date)
+            URL = f'https://transparencia.registrocivil.org.br/api/covid-cardiaco?start_date={date}&end_date={date}&state={state}&city_id={cities[city]}&chart=chartCardiac1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&diffCity=false&cor_pele=I'
+
+            while True:
+                page = requests.get(URL, headers = headers)
+                if page.status_code == 200:
+                    break
+                else:
+                    print('Request Failed')
+                    time.sleep(2 + rd.random()*5)
+
+            data_json = page.json()
+            time.sleep(0.5 + rd.random() * 3)
+            chart = data_json['chart']
+
+            print(chart)
+            break
+
+            ano_2020 = pd.DataFrame(columns = causes)
+            ano_2019 = pd.DataFrame(columns = causes)
+
+            ano_2020 = ano_2020.append(chart['2020'], ignore_index=True)
+            ano_2019 = ano_2019.append(chart['2019'], ignore_index=True)
+
+            try:
+                dataframe_2020.loc[f'{date}'] = ano_2020.iloc[-1]
+            except:
+                dataframe_2020.loc[f'{date}'] = 0
+
+            try:    
+                dataframe_2019.loc[f'{backdate}'] = ano_2019.iloc[-1]
+            except:
+                dataframe_2019.loc[f'{backdate}'] = 0
+
+
+        dataframe_2020.fillna(0)
+        dataframe_2019.fillna(0)
+
+        dataframe_2020['Month'] = pd.to_datetime(dataframe_2020.index)
+        dataframe_2020 = dataframe_2020.set_index('Month')
+
+        dataframe_2019['Month'] = pd.to_datetime(dataframe_2019.index)
+        dataframe_2019 = dataframe_2019.set_index('Month')
+        dataframe_2019['COVID'] = 0
+
+        #TODO Renomear colunas com underline
+        concat = pd.concat([dataframe_2019, dataframe_2020], axis=0)
+        concat = concat.rename(columns={'OUTRAS': 'DEMAIS OBITOS', 'INSUFICIENCIA_RESPIRATORIA': 'INSUFICIENCIA RESPIRATORIA', 'COVID': 'COVID19'})  
+        concat.fillna(0, inplace=True)
+
+        concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
