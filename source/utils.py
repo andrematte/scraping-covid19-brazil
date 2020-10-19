@@ -107,7 +107,7 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
         concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
 
 
-def scrape_data_cardiaco(cities, states, headers, dates, backdates, causes, data_path):
+def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_path):
     '''
         Scrapes the desired data and saves on the /data directory.
     '''
@@ -140,10 +140,7 @@ def scrape_data_cardiaco(cities, states, headers, dates, backdates, causes, data
 
             data_json = page.json()
             time.sleep(0.5 + rd.random() * 3)
-            chart = data_json['chart']
-
-            print(chart)
-            break
+            chart = data_json['chart']           
 
             ano_2020 = pd.DataFrame(columns = causes)
             ano_2019 = pd.DataFrame(columns = causes)

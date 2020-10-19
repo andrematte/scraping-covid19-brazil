@@ -17,7 +17,7 @@ In order to setup the execution, the following set of instructions are required:
 
 1. Fill the required browser headers in the `headers.txt` file. This information can be acquired through your browser's web inspector.
 2. Choose the brazilian cities you want to scrape data from by filling the dictionary in the `CitySelect.txt` file.
-3. Run the `scrape-respiratory-daily.py` file.
+3. Run the `scrape-respiratory-daily.py` file to scrape data related to respiratory diseases, or `scrape-cardiac-daily.py` in order to scrape the newly available cardiac diseases data.
 4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The file will be in csv format.
 
 

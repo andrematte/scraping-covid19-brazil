@@ -19,7 +19,7 @@ from utils import *
 # Set up death causes and dates to scrape
 causes = ['COVID', 'SRAG', 'PNEUMONIA', 'INSUFICIENCIA_RESPIRATORIA', 'SEPTICEMIA', "AVC", "CARDIOPATIA",  "CHOQUE_CARD", "COVID_AVC", "COVID_INFARTO", "INFARTO",  "SUBITA", 'INDETERMINADA', 'OUTRAS']
 
-start_date = pd.Timestamp(year=2020, month=10, day=1)
+start_date = pd.Timestamp(year=2020, month=1, day=1)
 end_date = pd.Timestamp.today()
 
 dates = pd.date_range(start_date, end_date)
@@ -33,4 +33,4 @@ city_select, cities, states, headers = load_data()
 
 
 # Execute the web scraping function
-scrape_data(cities, states, headers, dates, backdates, causes, data_path)
+scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_path)
