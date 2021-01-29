@@ -59,7 +59,7 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
         for date, backdate in zip(dates.strftime('%Y-%m-%d'), backdates.strftime('%Y-%m-%d')):
 
             print('Scraping the following date: ', date)
-            URL = f'https://transparencia.registrocivil.org.br/api/covid-covid-registral?start_date={date}&end_date={date}&state={state}&city_id={cities[city]}&chart=chart1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&cor_pele=I&diffCity=false     ' 
+            URL = f'https://transparencia.registrocivil.org.br/api/covid-covid-registral?start_date={date}&end_date={date}&state={state}&city_id=all&chart=chart1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&cor_pele=I&diffCity=false' 
 
             while True:
                 page = requests.get(URL, headers = headers)
@@ -104,7 +104,7 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
         concat = concat.rename(columns={'OUTRAS': 'DEMAIS OBITOS', 'INSUFICIENCIA_RESPIRATORIA': 'INSUFICIENCIA RESPIRATORIA', 'COVID': 'COVID19'})  
         concat.fillna(0, inplace=True)
 
-        concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
+        concat.to_csv(data_path + f'/RC_State_{state}.csv')
 
 
 def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_path):
@@ -128,7 +128,7 @@ def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_
         for date, backdate in zip(dates.strftime('%Y-%m-%d'), backdates.strftime('%Y-%m-%d')):
 
             print('Scraping the following date: ', date)
-            URL = f'https://transparencia.registrocivil.org.br/api/covid-cardiaco?start_date={date}&end_date={date}&state={state}&city_id={cities[city]}&chart=chartCardiac1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&diffCity=false&cor_pele=I'
+            URL = f'https://transparencia.registrocivil.org.br/api/covid-cardiaco?start_date={date}&end_date={date}&state={state}&city_id=all&chart=chartCardiac1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&diffCity=false&cor_pele=I'
 
             while True:
                 page = requests.get(URL, headers = headers)
@@ -174,4 +174,4 @@ def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_
         concat = concat.rename(columns={'OUTRAS': 'DEMAIS OBITOS', 'INSUFICIENCIA_RESPIRATORIA': 'INSUFICIENCIA RESPIRATORIA', 'COVID': 'COVID19'})  
         concat.fillna(0, inplace=True)
 
-        concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
+        concat.to_csv(data_path + f'/RC_State_{state}.csv')

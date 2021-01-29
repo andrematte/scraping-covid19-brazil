@@ -25,7 +25,7 @@ end_date = pd.Timestamp.today()
 dates = pd.date_range(start_date, end_date)
 backdates = pd.date_range(start_date.replace(year=2019), end_date.replace(year=2019))
 
-data_path = f"../data/Respiratory_RC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
+data_path = f"../data/Respiratory_RC_State_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
 
 
 # Create dictionary of selected cities and their IDs (set up on CitySelect.txt)
