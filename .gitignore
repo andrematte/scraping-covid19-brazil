@@ -7,3 +7,4 @@ Headers-Self.txt
 source/.DS_Store
 .DS_Store
 data/
+source/__pycache__/utils.cpython-37.pyc

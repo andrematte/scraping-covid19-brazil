@@ -38,7 +38,7 @@ def load_data():
     return city_select, cities, states, headers
 
 
-def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
+def scrape_data(cities, states, headers, dates, backdates, frontdates, causes, data_path):
     '''
         Scrapes the desired data and saves on the /data directory.
     '''
@@ -52,11 +52,12 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
 
         dataframe_2019 = pd.DataFrame(columns = causes)
         dataframe_2020 = pd.DataFrame(columns = causes)
+        dataframe_2021 = pd.DataFrame(columns = causes)
         del dataframe_2019['COVID']
 
         print(f'Scraping {city}, {state} data.')
 
-        for date, backdate in zip(dates.strftime('%Y-%m-%d'), backdates.strftime('%Y-%m-%d')):
+        for date, backdate, frontdate in zip(dates.strftime('%Y-%m-%d'), backdates.strftime('%Y-%m-%d'), frontdates.strftime('%Y-%m-%d')):
 
             print('Scraping the following date: ', date)
             URL = f'https://transparencia.registrocivil.org.br/api/covid-covid-registral?start_date={date}&end_date={date}&state={state}&city_id={cities[city]}&chart=chart1&places[]=HOSPITAL&places[]=DOMICILIO&places[]=VIA_PUBLICA&places[]=OUTROS&cor_pele=I&diffCity=false     ' 
@@ -75,9 +76,11 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
 
             ano_2020 = pd.DataFrame(columns = causes)
             ano_2019 = pd.DataFrame(columns = causes)
-
+            ano_2021 = pd.DataFrame(columns = causes)
+            
             ano_2020 = ano_2020.append(chart['2020'], ignore_index=True)
             ano_2019 = ano_2019.append(chart['2019'], ignore_index=True)
+            ano_2021 = ano_2021.append(chart['2021'], ignore_index=True)
 
             try:
                 dataframe_2020.loc[f'{date}'] = ano_2020.iloc[-1]
@@ -88,10 +91,16 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
                 dataframe_2019.loc[f'{backdate}'] = ano_2019.iloc[-1]
             except:
                 dataframe_2019.loc[f'{backdate}'] = 0
+                
+            try:    
+                dataframe_2021.loc[f'{frontdate}'] = ano_2021.iloc[-1]
+            except:
+                dataframe_2021.loc[f'{frontdate}'] = 0
 
 
         dataframe_2020.fillna(0)
         dataframe_2019.fillna(0)
+        dataframe_2021.fillna(0)
 
         dataframe_2020['Month'] = pd.to_datetime(dataframe_2020.index)
         dataframe_2020 = dataframe_2020.set_index('Month')
@@ -99,8 +108,11 @@ def scrape_data(cities, states, headers, dates, backdates, causes, data_path):
         dataframe_2019['Month'] = pd.to_datetime(dataframe_2019.index)
         dataframe_2019 = dataframe_2019.set_index('Month')
         dataframe_2019['COVID'] = 0
+        
+        dataframe_2021['Month'] = pd.to_datetime(dataframe_2021.index)
+        dataframe_2021 = dataframe_2021.set_index('Month')
 
-        concat = pd.concat([dataframe_2019, dataframe_2020], axis=0)
+        concat = pd.concat([dataframe_2019, dataframe_2020, dataframe_2021], axis=0)
         concat = concat.rename(columns={'OUTRAS': 'DEMAIS OBITOS', 'INSUFICIENCIA_RESPIRATORIA': 'INSUFICIENCIA RESPIRATORIA', 'COVID': 'COVID19'})  
         concat.fillna(0, inplace=True)
 
