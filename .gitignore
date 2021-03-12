@@ -1,9 +1,5 @@
 
-.ipynb_checkpoints/CityCodes-checkpoint.txt
-.ipynb_checkpoints/CitySelect-checkpoint.txt
-.ipynb_checkpoints/Headers-checkpoint.txt
-.ipynb_checkpoints/LICENSE-checkpoint
 source/.DS_Store
 .DS_Store
 data/
-source/__pycache__/utils.cpython-37.pyc
+headers.txt
