@@ -34,3 +34,10 @@ city_select, cities, states, headers = load_data()
 
 # Execute the web scraping function
 scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_path)
+
+"""
+# Code Generator for Machine Learning
+[![Star](https://img.shields.io/github/stars/jrieke/traingenerator.svg?logo=github&style=social)](https://gitHub.com/jrieke/traingenerator/stargazers)
+&nbsp[![Follow](https://img.shields.io/twitter/follow/jrieke?style=social)](https://www.twitter.com/jrieke)
+&nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/jrieke)
+"""
