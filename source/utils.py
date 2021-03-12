@@ -17,7 +17,7 @@ def load_data():
     with open('../CityCodes.txt', 'r') as inf:
         data_json = json.load(inf)
 
-    with open('../Headers-Self.txt', 'r') as inf:
+    with open('../headers.txt', 'r') as inf:
         headers.update(ast.literal_eval(inf.read()))
         
     # Avoid those city IDs (temporary fix since some cities have duplicate names)
