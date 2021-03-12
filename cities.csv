@@ -1,0 +1,564 @@
+city_id,uf,nome,capital
+2598,PE,Abreu e Lima,False
+1917,MA,Açailandia,False
+3415,RN,Açu,False
+39,SP,Adamantina,False
+2621,PE,Afogados da Ingazeira,False
+864,BA,Alagoinhas,False
+3690,RS,Alegrete,False
+4820,MG,Alem Paraiba,False
+4805,MG,Alfenas,False
+2627,PE,Aliança,False
+2996,PR,Almirante Tamandaré,False
+2267,PA,Altamira,False
+3674,RS,Alvorada,False
+64,SP,Americana,False
+191,SP,Amparo,False
+2243,PA,Ananindeua,False
+1569,GO,Anapolis,False
+4991,MG,Andradas,False
+292,SP,Andradina,False
+4692,RJ,Angra dos Reis,False
+1579,GO,Aparecida de Goiania,False
+2021,MS,Aquidauana,False
+4426,SE,Aracaju,True
+1321,CE,Aracati,False
+23,SP,Araçatuba,False
+1467,ES,Aracruz,False
+4799,MG,Araguari,False
+679,AL,Arapiraca,False
+3003,PR,Arapongas,False
+4272,SC,Araranguá,False
+140,SP,Araraquara,False
+142,SP,Araras,False
+2631,PE,Araripina,False
+4666,RJ,Araruama,False
+3013,PR,Araucaria,False
+4756,MG,Araxa,False
+2632,PE,Arcoverde,False
+3568,RO,Ariquemes,False
+124,SP,Aruja,False
+113,SP,Assis,False
+226,SP,Atibaia,False
+199,SP,Avare,False
+3668,RS,Bage,False
+4173,SC,Balneario Camboriu,False
+4729,MG,Barbacena,False
+1329,CE,Barbalha,False
+201,SP,Barra Bonita,False
+1496,ES,Barra de São Francisco,False
+1887,MA,Barra do Corda,False
+4647,RJ,Barra Mansa,False
+865,BA,Barreiras,False
+50,SP,Barretos,False
+6,SP,Barueri,False
+184,SP,Batatais,False
+63,SP,Bauru,False
+2439,PB,Bayeux,False
+60,SP,Bebedouro,False
+2241,PA,Belém,True
+4672,RJ,Belford Roxo,False
+4750,MG,Belo Horizonte,True
+2604,PE,Belo Jardim,False
+2274,PA,Benevides,False
+3664,RS,Bento Gonçalves,False
+255,SP,Bertioga,False
+4781,MG,Betim,False
+2638,PE,Bezerros,False
+315,SP,Birigui,False
+4140,SC,Blumenau,False
+1334,CE,Boa Viagem,False
+3621,RR,Boa Vista,True
+25,SP,Boituva,False
+5027,MG,Bom Despacho,False
+2641,PE,Bom Jardim,False
+4693,RJ,Bom Jesus do Itabapoana,False
+2642,PE,Bonito,False
+18,SP,Botucatu,False
+2276,PA,Bragança,False
+27,SP,Bragança Paulista,False
+1457,DF,Brasília,True
+2645,PE,Brejo da Madre de Deus,False
+4168,SC,Brusque,False
+2597,PE,Cabo de Santo Agostinho,False
+4694,RJ,Cabo Frio,False
+4145,SC,Caçador,False
+82,SP,Caçapava,False
+3629,RS,Caçapava do Sul,False
+2148,MT,Cáceres,False
+3694,RS,Cachoeira do Sul,False
+4674,RJ,Cachoeiras de Macacu,False
+5593,RS,Cachoeirinha,False
+1499,ES,Cachoeiro de Itapemirim,False
+3570,RO,Cacoal,False
+214,SP,Caieiras,False
+72,SP,Cajamar,False
+2456,PB,Cajazeiras,False
+1575,GO,Caldas Novas,False
+857,BA,Camaçari,False
+3630,RS,Camaqua,False
+2614,PE,Camaragibe,False
+3064,PR,Cambe,False
+2364,PB,Campina Grande,False
+3138,PR,Campina Grande do Sul,False
+8,SP,Campinas,False
+4823,MG,Campo Belo,False
+3691,RS,Campo Bom,False
+2005,MS,Campo Grande,True
+3012,PR,Campo Largo,False
+76,SP,Campo Limpo Paulista,False
+3017,PR,Campo Mourao,False
+154,SP,Campos do Jordão,False
+4634,RJ,Campos dos Goytacazes,False
+856,BA,Candeias,False
+335,SP,Cândido Mota,False
+3987,RS,Canguçu,False
+1338,CE,Canindé,False
+3658,RS,Canoas,False
+4286,SC,Canoinhas,False
+162,SP,Capão Bonito,False
+61,SP,Capivari,False
+35,SP,Caraguatatuba,False
+5080,MG,Carangola,False
+36,SP,Carapicuiba,False
+5081,MG,Caratinga,False
+3988,RS,Carazinho,False
+1461,ES,Cariacica,False
+2658,PE,Carpina,False
+2589,PE,Caruaru,False
+3000,PR,Cascavel,False
+3014,PR,Castro,False
+4795,MG,Cataguases,False
+1570,GO,Catalao,False
+37,SP,Catanduva,False
+1270,CE,Caucaia,False
+1900,MA,Caxias,False
+3649,RS,Caxias do Sul,False
+3439,RN,Ceará-Mirim,False
+1455,DF,Ceilandia,False
+1901,MA,Chapadinha,False
+4149,SC,Chapeco,False
+3147,PR,Cianorte,False
+1479,ES,Colatina,False
+3031,PR,Colombo,False
+4139,SC,Concordia,False
+4818,MG,Conselheiro Lafaiete,False
+4754,MG,Contagem,False
+3156,PR,Cornélio Procópio,False
+4768,MG,Coronel Fabriciano,False
+91,SP,Cosmopolis,False
+11,SP,Cotia,False
+769,AL,Craíbas,False
+1350,CE,Crato,False
+4177,SC,Criciuma,False
+3678,RS,Cruz Alta,False
+144,SP,Cruzeiro,False
+647,AC,Cruzeiro do Sul,False
+12,SP,Cubatão,False
+2104,MT,Cuiaba,True
+3009,PR,Curitiba,True
+4291,SC,Curitibanos,False
+3444,RN,Currais Novos,False
+4931,MG,Curvelo,False
+51,SP,Diadema,False
+878,BA,Dias D'Ávila,False
+4777,MG,Divinopolis,False
+2033,MS,Dourados,False
+121,SP,Dracena,False
+4658,RJ,Duque de Caxias,False
+73,SP,Embu das Artes,False
+161,SP,Embú-Guaçu,False
+3675,RS,Erechim,False
+2668,PE,Escada,False
+519,SP,Espírito Santo do Pinhal,False
+4443,SE,Estância,False
+3648,RS,Esteio,False
+849,BA,Eunapolis,False
+3653,RS,Farroupilha,False
+3034,PR,Fazenda Rio Grande,False
+868,BA,Feira de Santana,False
+372,SP,Fernandópolis,False
+163,SP,Ferraz de Vasconcelos,False
+2887,PI,Floriano,False
+4152,SC,Florianopolis,True
+4924,MG,Formiga,False
+1650,GO,Formosa,False
+1280,CE,Fortaleza,True
+3004,PR,Foz do Iguaçu,False
+34,SP,Franca,False
+3018,PR,Francisco Beltrao,False
+378,SP,Francisco Morato,False
+128,SP,Franco da Rocha,False
+1458,DF,Gama,False
+2721,PE,Garanhuns,False
+40,SP,Garça,False
+2613,PE,Goiana,False
+1654,GO,Goianésia,False
+1574,GO,Goiânia,True
+4815,MG,Governador Valadares,False
+2678,PE,Gravatá,False
+3650,RS,Gravatai,False
+1057,BA,Guanambi,False
+4669,RJ,Guapimirim,False
+5585,DF,Guará,False
+2479,PB,Guarabira,False
+1472,ES,Guarapari,False
+3008,PR,Guarapuava,False
+394,SP,Guararapes,False
+81,SP,Guaratingueta,False
+43,SP,Guaruja,False
+47,SP,Guarulhos,False
+4734,MG,Guaxupé,False
+4533,TO,Gurupi,False
+1272,CE,Horizonte,False
+79,SP,Hortolândia,False
+3037,PR,Ibipora,False
+4809,MG,Ibirité,False
+400,SP,Ibitinga,False
+401,SP,Ibiúna,False
+4129,SC,Içara,False
+1362,CE,Icó,False
+2601,PE,Igarassu,False
+4679,RJ,Iguaba Grande,False
+3703,RS,Ijui,False
+871,BA,Ilheus,False
+4150,SC,Imbituba,False
+1913,MA,Imperatriz,False
+4157,SC,Indaial,False
+90,SP,Indaiatuba,False
+1665,GO,Inhumas,False
+4738,MG,Ipatinga,False
+2602,PE,Ipojuca,False
+3192,PR,Irati,False
+1084,BA,Irecê,False
+4451,SE,Itabaiana,False
+1085,BA,Itaberaba,False
+4779,MG,Itabira,False
+4762,MG,Itabirito,False
+4662,RJ,Itaborai,False
+859,BA,Itabuna,False
+4660,RJ,Itaguai,False
+2294,PA,Itaituba,False
+4176,SC,Itajai,False
+4800,MG,Itajuba,False
+874,BA,Itamaraju,False
+419,SP,Itanhaém,False
+49,SP,Itapecerica da Serra,False
+4636,RJ,Itaperuna,False
+860,BA,Itapetinga,False
+52,SP,Itapetininga,False
+80,SP,Itapeva,False
+108,SP,Itapevi,False
+149,SP,Itapira,False
+420,SP,Itápolis,False
+134,SP,Itaquaquecetuba,False
+424,SP,Itararé,False
+15,SP,Itatiba,False
+4923,MG,Itauna,False
+141,SP,Itu,False
+4785,MG,Ituiutaba,False
+3200,PR,Ivaiporã,False
+2600,PE,Jaboatao dos Guararapes,False
+148,SP,Jaboticabal,False
+28,SP,Jacarei,False
+870,BA,Jacobina,False
+59,SP,Jaguariuna,False
+433,SP,Jales,False
+5267,MG,Janaúba,False
+210,SP,Jandira,False
+4686,RJ,Japeri,False
+4163,SC,Jaraguá do Sul,False
+1678,GO,Jataí,False
+32,SP,Jau,False
+1111,BA,Jequié,False
+3563,RO,Ji-Paraná,False
+4935,MG,Joao Monlevade,False
+2366,PB,Joao Pessoa,True
+4143,SC,Joinville,False
+873,BA,Juazeiro,False
+1381,CE,Juazeiro do Norte,False
+4739,MG,Juiz de Fora,False
+78,SP,Jundiai,False
+4457,SE,Lagarto,False
+4148,SC,Lages,False
+4320,SC,Laguna,False
+3683,RS,Lajeado,False
+2699,PE,Lajedo,False
+5294,MG,Lavras,False
+187,SP,Leme,False
+441,SP,Lençóis Paulista,False
+4824,MG,Leopoldina,False
+19,SP,Limeira,False
+2700,PE,Limoeiro,False
+1384,CE,Limoeiro do Norte,False
+1468,ES,Linhares,False
+54,SP,Lins,False
+3021,PR,Londrina,False
+83,SP,Lorena,False
+2217,MT,Lucas do Rio Verde,False
+4637,RJ,Macae,False
+3483,RN,Macaíba,False
+833,AP,Macapa,True
+670,AL,Maceio,True
+4175,SC,Mafra,False
+4638,RJ,Mage,False
+55,SP,Mairiporã,False
+2505,PB,Mamanguape,False
+771,AM,Manaus,True
+5303,MG,Manhuaçu,False
+2220,PA,Maraba,False
+1273,CE,Maracanau,False
+4701,RJ,Maricá,False
+16,SP,Marilia,False
+3005,PR,Maringa,False
+68,SP,Matão,False
+46,SP,Maua,False
+4670,RJ,Mesquita,False
+4703,RJ,Miguel Pereira,False
+132,SP,Mirassol,False
+17,SP,Mococa,False
+62,SP,Mogi das Cruzes,False
+93,SP,Mogi Guaçu,False
+86,SP,Mogi Mirim,False
+467,SP,Mongaguá,False
+468,SP,Monte Alto,False
+66,SP,Monte Mor,False
+3663,RS,Montenegro,False
+4778,MG,Montes Claros,False
+1281,CE,Morada Nova,False
+2705,PE,Moreno,False
+1694,GO,Morrinhos,False
+3492,RN,Mossoró,False
+4792,MG,Muriae,False
+3397,RN,Natal,True
+4132,SC,Navegantes,False
+4706,RJ,Nilópolis,False
+4657,RJ,Niteroi,False
+4421,SE,Nossa Senhora do Socorro,False
+4640,RJ,Nova Friburgo,False
+4653,RJ,Nova Iguaçu,False
+4828,MG,Nova Lima,False
+146,SP,Nova Odessa,False
+3662,RS,Novo Hamburgo,False
+484,SP,Novo Horizonte,False
+5591,DF,Núcleo Bandeirantes,False
+2919,PI,Oeiras,False
+120,SP,Olímpia,False
+2596,PE,Olinda,False
+5356,MG,Oliveira,False
+75,SP,Osasco,False
+2709,PE,Ouricuri,False
+114,SP,Ourinhos,False
+4782,MG,Ouro Preto,False
+1275,CE,Pacajus,False
+1402,CE,Pacatuba,False
+1946,MA,Paço do Lumiar,False
+4171,SC,Palhoça,False
+2710,PE,Palmares,False
+3249,PR,Palmas,True
+4633,TO,Palmas,True
+738,AL,Palmeira dos Índios,False
+4665,RJ,Paracambi,False
+4804,MG,Paracatu,False
+2310,PA,Paragominas,False
+500,SP,Paraguaçu Paulista,False
+4667,RJ,Paraiba do Sul,False
+2007,MS,Paranaiba,False
+3255,PR,Paranavaí,False
+5586,DF,Paranoá,False
+2244,PA,Parauapebas,False
+506,SP,Pariquera-Açu,False
+2926,PI,Parnaíba,False
+3395,RN,Parnamirim,False
+2715,PE,Passira,False
+3710,RS,Passo Fundo,False
+3256,PR,Pato Branco,False
+2524,PB,Patos,False
+4788,MG,Patos de Minas,False
+4742,MG,Patrocinio,False
+9,SP,Paulinia,False
+2599,PE,Paulista,False
+77,SP,Pedreira,False
+3697,RS,Pelotas,False
+514,SP,Penápolis,False
+516,SP,Peruíbe,False
+2718,PE,Pesqueira,False
+2591,PE,Petrolina,False
+4648,RJ,Petropolis,False
+151,SP,Piedade,False
+74,SP,Pindamonhangaba,False
+3022,PR,Pinhais,False
+14,SP,Piracicaba,False
+5402,MG,Pirapora,False
+3027,PR,Piraquara,False
+243,SP,Pirassununga,False
+2933,PI,Piripiri,False
+1456,DF,Planaltina,False
+119,SP,Poá,False
+4797,MG,Poços de Caldas,False
+3019,PR,Ponta Grossa,False
+2050,MS,Ponta Porã,False
+4744,MG,Ponte Nova,False
+3647,RS,Porto Alegre,True
+218,SP,Porto Feliz,False
+139,SP,Porto Ferreira,False
+3565,RO,Porto Velho,True
+4759,MG,Pouso Alegre,False
+536,SP,Praia Grande,False
+539,SP,Presidente Epitácio,False
+96,SP,Presidente Prudente,False
+540,SP,Presidente Venceslau,False
+3272,PR,Prudentópolis,False
+4655,RJ,Queimados,False
+1418,CE,Quixadá,False
+1419,CE,Quixeramobim,False
+2603,PE,Recife,True
+2337,PA,Redenção,False
+138,SP,Registro,False
+4654,RJ,Resende,False
+5428,MG,Ribeirão das Neves,False
+7,SP,Ribeirão Pires,False
+92,SP,Ribeirão Preto,False
+4676,RJ,Rio Bonito,False
+650,AC,Rio Branco,True
+13,SP,Rio Claro,False
+4683,RJ,Rio das Ostras,False
+4646,RJ,Rio de Janeiro,True
+4134,SC,Rio do Sul,False
+3660,RS,Rio Grande,False
+752,AL,Rio Largo,False
+1543,GO,Rio Verde,False
+3006,PR,Rolandia,False
+2165,MT,Rondonópolis,False
+4072,RS,Rosário do Sul,False
+1422,CE,Russas,False
+4767,MG,Sabara,False
+2730,PE,Salgueiro,False
+10,SP,Salto,False
+855,BA,Salvador,True
+5589,DF,Samambaia,False
+58,SP,Santa Barbara D'oeste,False
+2733,PE,Santa Cruz do Capibaribe,False
+3679,RS,Santa Cruz do Sul,False
+572,SP,Santa Fé do Sul,False
+1790,MA,Santa Inês,False
+100,SP,Santa Isabel,False
+4789,MG,Santa Luzia,False
+3657,RS,Santa Maria,False
+2553,PB,Santa Rita,False
+3656,RS,Santa Rosa,False
+131,SP,Santana de Parnaíba,False
+3661,RS,Santana do Livramento,False
+2240,PA,Santarem,False
+4076,RS,Santiago,False
+5,SP,Santo Andre,False
+3680,RS,Santo Angelo,False
+3303,PR,Santo Antônio da Platina,False
+4711,RJ,Santo Antônio de Pádua,False
+1211,BA,Santo Estêvão,False
+84,SP,Santos,False
+5482,MG,Santos Dumont,False
+1427,CE,São Benedito,False
+4154,SC,Sao Bento do Sul,False
+2737,PE,São Bento do Una,False
+2,SP,São Bernardo do Campo,False
+4080,RS,São Borja,False
+4,SP,São Caetano do Sul,False
+129,SP,São Carlos,False
+3636,RS,São Gabriel,False
+4656,RJ,São Gonçalo,False
+3396,RN,São Gonçalo do Amarante,False
+101,SP,São João da Boa Vista,False
+4643,RJ,São João de Meriti,False
+4753,MG,São João Del Rei,False
+4165,SC,São José,False
+1965,MA,São José de Ribamar,False
+102,SP,São José do Rio Pardo,False
+126,SP,São José do Rio Preto,False
+29,SP,São José dos Campos,False
+3011,PR,São José dos Pinhais,False
+3666,RS,São Leopoldo,False
+5509,MG,São Lourenço,False
+2594,PE,São Lourenço da Mata,False
+3637,RS,São Lourenço do Sul,False
+1791,MA,São Luís,True
+1474,ES,São Mateus,False
+1,SP,São Paulo,True
+4714,RJ,São Pedro da Aldeia,False
+215,SP,São Roque,False
+595,SP,São Sebastião,False
+4794,MG,São Sebastião do Paraíso,False
+71,SP,São Vicente,False
+2569,PB,Sapé,False
+3676,RS,Sapiranga,False
+3646,RS,Sapucaia do Sul,False
+4717,RJ,Saquarema,False
+3374,PR,Sarandi,False
+1767,GO,Senador Canedo,False
+1223,BA,Senhor do Bonfim,False
+4664,RJ,Seropedica,False
+1478,ES,Serra,False
+2745,PE,Serra Talhada,False
+202,SP,Sertãozinho,False
+4760,MG,Sete Lagoas,False
+858,BA,Simões Filho,False
+2133,MT,Sinop,False
+1460,DF,Sobradinho,False
+217,SP,Socorro,False
+53,SP,Sorocaba,False
+2578,PB,Sousa,False
+3,SP,Sumare,False
+2750,PE,Surubim,False
+65,SP,Suzano,False
+189,SP,Taboão da Serra,False
+1459,DF,Taguatinga,False
+615,SP,Taquaritinga,False
+194,SP,Tatui,False
+1435,CE,Tauá,False
+85,SP,Taubate,False
+884,BA,Teixeira de Freitas,False
+3025,PR,Telemaco Borba,False
+5555,MG,Teófilo Otoni,False
+2772,PI,Teresina,True
+4644,RJ,Teresopolis,False
+167,SP,Tiete,False
+2758,PE,Timbaúba,False
+4763,MG,Timoteo,False
+3002,PR,Toledo,False
+3699,RS,Torres,False
+4106,RS,Tramandaí,False
+4755,MG,Três Corações,False
+2058,MS,Três Lagoas,False
+5561,MG,Três Pontas,False
+4645,RJ,Três Rios,False
+4146,SC,Tubarao,False
+179,SP,Tupa,False
+5565,MG,Ubá,False
+627,SP,Ubatuba,False
+4786,MG,Uberaba,False
+4784,MG,Uberlandia,False
+3001,PR,Umuarama,False
+5568,MG,Unaí,False
+3338,PR,União da Vitória,False
+3640,RS,Uruguaiana,False
+3641,RS,Vacaria,False
+48,SP,Valinhos,False
+1593,GO,Valparaíso de Goiás,False
+198,SP,Vargem Grande do Sul,False
+4811,MG,Varginha,False
+4675,RJ,Vassouras,False
+4112,RS,Venâncio Aires,False
+4780,MG,Vespasiano,False
+3670,RS,Viamao,False
+1464,ES,Viana,False
+5572,MG,Viçosa,False
+4166,SC,Videira,False
+1463,ES,Vila Velha,False
+3574,RO,Vilhena,False
+69,SP,Vinhedo,False
+1462,ES,Vitória,True
+883,BA,Vitoria da Conquista,False
+2592,PE,Vitória de Santo Antão,False
+4650,RJ,Volta Redonda,False
+33,SP,Votorantim,False
+178,SP,Votuporanga,False

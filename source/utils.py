@@ -5,37 +5,6 @@ import requests, os, glob, ast, json, shutil, time
 
 # Utility Functions
 
-def load_data():
-    city_select = dict()
-    cities = dict()
-    states = dict()
-    headers = dict()
-
-    with open('../CitySelect.txt', 'r') as inf:
-        city_select.update(ast.literal_eval(inf.read()))
-
-    with open('../CityCodes.txt', 'r') as inf:
-        data_json = json.load(inf)
-
-    with open('../headers.txt', 'r') as inf:
-        headers.update(ast.literal_eval(inf.read()))
-        
-    # Avoid those city IDs (temporary fix since some cities have duplicate names)
-    drop_cities = ['3249']
-
-    city_list = [value[3:] for value in city_select.values()]
-    city_list.append('all')
-
-    for x in range(0,len(data_json)):
-        if data_json[x]['nome'] in city_list:
-
-            print(f"{data_json[x]['uf']}, {data_json[x]['nome']},  {data_json[x]['city_id']}")
-
-            if not data_json[x]['city_id'] in drop_cities:
-                states[data_json[x]['uf']] = data_json[x]['nome']
-                cities[data_json[x]['nome']] = data_json[x]['city_id']
-        
-    return city_select, cities, states, headers
 
 
 def scrape_data(cities, states, headers, dates, backdates, frontdates, causes, data_path):
@@ -187,3 +156,36 @@ def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_
         concat.fillna(0, inplace=True)
 
         concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
+        
+        
+def load_data():
+    city_select = dict()
+    cities = dict()
+    states = dict()
+    headers = dict()
+
+    with open('../CitySelect.txt', 'r') as inf:
+        city_select.update(ast.literal_eval(inf.read()))
+
+    with open('../CityCodes.txt', 'r') as inf:
+        data_json = json.load(inf)
+
+    with open('../headers.txt', 'r') as inf:
+        headers.update(ast.literal_eval(inf.read()))
+        
+    # Avoid those city IDs (temporary fix since some cities have duplicate names)
+    drop_cities = ['3249']
+
+    city_list = [value[3:] for value in city_select.values()]
+    city_list.append('all')
+
+    for x in range(0,len(data_json)):
+        if data_json[x]['nome'] in city_list:
+
+            print(f"{data_json[x]['uf']}, {data_json[x]['nome']},  {data_json[x]['city_id']}")
+
+            if not data_json[x]['city_id'] in drop_cities:
+                states[data_json[x]['uf']] = data_json[x]['nome']
+                cities[data_json[x]['nome']] = data_json[x]['city_id']
+        
+    return city_select, cities, states, headers

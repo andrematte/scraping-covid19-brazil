@@ -14,6 +14,7 @@ import random as rd
 import requests, os, glob, ast, json, shutil, time
 
 from utils import *
+from headers import headers
 
 
 # Set up death causes and dates to scrape
@@ -28,10 +29,8 @@ frontdates = pd.date_range(start_date.replace(year=2021), end_date.replace(year=
 
 data_path = f"../data/Respiratory_RC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
 
-
 # Create dictionary of selected cities and their IDs (set up on CitySelect.txt)
 city_select, cities, states, headers = load_data()
-
 
 # Execute the web scraping function
 scrape_data(cities, states, headers, dates, backdates, frontdates, causes, data_path)
