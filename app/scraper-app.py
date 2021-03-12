@@ -16,3 +16,9 @@ import pandas as pd
 import random as rd
 
 from source.utils import *
+
+
+# ----------------------------- App Configuration ---------------------------- #
+
+title = 'Brazilian Civil Registry Scraper'
+st.set_page_config(page_title=title, page_icon=":eyeglasses:")

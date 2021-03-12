@@ -3,3 +3,4 @@ source/.DS_Store
 .DS_Store
 data/
 headers.txt
+.vscode/settings.json
