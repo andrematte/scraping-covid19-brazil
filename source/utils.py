@@ -15,7 +15,7 @@ def app_config():
     Returns:
         start_date [datetime]: Date to start scraping from
         final_date [datetime]: Date to stop scraping
-        selected_cities [list]: Cities selected for scraping
+        df_selected [dataframe]: Cities selected for scraping
     """
     st.sidebar.title('Configurações')
     st.sidebar.subheader('Selecione o Período')
@@ -36,15 +36,41 @@ def app_config():
     st.sidebar.write('Os dados referentes às cidades selecionadas serão baixados.')
 
     # City Settings
-    cities = ['Todos os estados', 'Todas as capitais', 'Selecionar Estado']
+    cities = ['Todos os estados', 'Todas as capitais', 'Selecionar estado']
     selected_cities = st.sidebar.selectbox('Cidades', cities)
+                                                  
+    # Process selected cities
+    df_cities = pd.read_csv('config/cities.csv').sort_values(by='uf')
+        
+    print(selected_cities)
+    if selected_cities == 'Todos os estados':
+        df_selected = pd.DataFrame(df_cities['uf'].unique(), columns=['Estados'])
+        df_selected['Cidades'] = 'all'
+        df_selected['ID'] = 'all'
+        
+        
+    elif selected_cities == 'Todas as capitais':
+        df_selected = df_cities[df_cities['capital'] == True][['uf', 'nome', 'city_id']]
+        df_selected = df_selected.rename(columns={'uf': 'Estados', 'nome': 'Cidades', 'city_id': 'ID'})
+        df_selected = df_selected.reset_index(drop=True)
+        
+
+    elif selected_cities == 'Selecionar estado':
+        selected_state = st.sidebar.selectbox('Selecione o Estado:', df_cities['uf'].unique())
+        
+        city_list = list(df_cities[df_cities['uf'] == selected_state ]['nome'].values)
+        city_list.insert(0, 'all')
+        selected_city = st.sidebar.selectbox('Selecione a Cidade', city_list)
+        
+        if selected_city == 'all':
+            selected_id = 'all'
+        else:
+            selected_id = df_cities[ df_cities['nome'] == selected_city]['city_id'].values[0]
+               
+        df_selected = pd.DataFrame(columns=['Estados', 'Cidades', 'ID'], index=[0])
+        df_selected.iloc[0] = [selected_state, selected_city, selected_id]
     
-    
-    if selected_cities == 'Selecionar Estado':
-        df_cities = pd.read_csv('config/cities.csv').sort_values(by='uf')
-        st.sidebar.selectbox('Selecione o Estado:', df_cities['uf'].unique())
-    
-    return start_date, final_date, selected_cities
+    return start_date, final_date, df_selected
 
 def terminal_config():
     """
@@ -57,7 +83,7 @@ def terminal_config():
     """
     return
 
-def setup_scrape(start_date, final_date, selected_cities):
+def setup_scrape(start_date, final_date):
     """
     setup_scrape
 
@@ -66,19 +92,17 @@ def setup_scrape(start_date, final_date, selected_cities):
     Args:
         start_date (datetime): Date to start scraping from
         final_date (datetime): Date to stop scraping
-        selected_cities (list): ities selected for scraping
 
     Returns:
-        [type]: [description]
+        dates_2020 (date_range): List of dates do scrape (2020)
+        dates_2019 (date_range): List of dates do scrape (2019)
+        dates_2019 (date_range): List of dates do scrape (2021)
     """
     # Process dates
     dates_2020 = pd.date_range(start_date, final_date)
     dates_2019 = pd.date_range(start_date.replace(year=2019), final_date.replace(year=2019))
     dates_2021 = pd.date_range(start_date.replace(year=2021), final_date.replace(year=2021))
     
-    # Process selected cities
-    df_cities = pd.read_csv('config/cities.csv')
-    st.dataframe(df_cities)
     
     # Path to save csv files
     data_path = f"data/PTRC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"

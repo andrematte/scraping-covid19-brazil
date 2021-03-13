@@ -48,5 +48,8 @@ st.image('images/sample-plot-ptrc.png')
 
 # ------------------------------ Scraping Config ----------------------------- #
 
-start_date, final_date, selected_cities = app_config()
-dates_2020, dates_2019, dates_2021, data_path = setup_scrape(start_date, final_date, selected_cities)
+start_date, final_date, df_selected = app_config()
+dates_2020, dates_2019, dates_2021, data_path = setup_scrape(start_date, final_date)
+
+st.header('Selected Cities:')
+st.dataframe(df_selected)
