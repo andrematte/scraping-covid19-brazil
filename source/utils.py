@@ -1,11 +1,98 @@
 import datetime
 import pandas as pd
 import random as rd
+import streamlit as st
 import requests, os, glob, ast, json, shutil, time
 
-# Utility Functions
+from datetime import datetime
+# ------------------------------- App Functions ------------------------------ #
+
+def app_config():
+    """
+    sidebar_widgets 
+    Set-up widgets for the app sidebar
+
+    Returns:
+        start_date [datetime]: Date to start scraping from
+        final_date [datetime]: Date to stop scraping
+        selected_cities [list]: Cities selected for scraping
+    """
+    st.sidebar.title('Configurações')
+    st.sidebar.subheader('Selecione o Período')
+    st.sidebar.write('O algoritmo irá baixar os dados para o período correspondente às datas abaixo.')
+
+    # Date Settings
+    start_date = st.sidebar.date_input('Data Inicial',
+                                    value=datetime(2020, 1, 1),
+                                    min_value=datetime(2020, 1, 1),
+                                    max_value=datetime(2020, 12, 31))
+
+    final_date = st.sidebar.date_input('Data Final',
+                                    value=datetime(2020, 12, 31),
+                                    min_value=datetime(2020, 1, 1),
+                                    max_value=datetime(2020, 12, 31))
+
+    st.sidebar.subheader('Selecione as Cidades')
+    st.sidebar.write('Os dados referentes às cidades selecionadas serão baixados.')
+
+    # City Settings
+    cities = ['Todos os estados', 'Todas as capitais', 'Selecionar Estado']
+    selected_cities = st.sidebar.selectbox('Cidades', cities)
+    
+    
+    if selected_cities == 'Selecionar Estado':
+        df_cities = pd.read_csv('config/cities.csv').sort_values(by='uf')
+        st.sidebar.selectbox('Selecione o Estado:', df_cities['uf'].unique())
+    
+    return start_date, final_date, selected_cities
+
+def terminal_config():
+    """
+    Under construction
+    
+    Returns:
+        start_date [datetime]: Date to start scraping from
+        final_date [datetime]: Date to stop scraping
+        selected_cities [list]: Cities selected for scraping
+    """
+    return
+
+def setup_scrape(start_date, final_date, selected_cities):
+    """
+    setup_scrape
+
+    Process and returns necessary parameters for the scraping process.
+
+    Args:
+        start_date (datetime): Date to start scraping from
+        final_date (datetime): Date to stop scraping
+        selected_cities (list): ities selected for scraping
+
+    Returns:
+        [type]: [description]
+    """
+    # Process dates
+    dates_2020 = pd.date_range(start_date, final_date)
+    dates_2019 = pd.date_range(start_date.replace(year=2019), final_date.replace(year=2019))
+    dates_2021 = pd.date_range(start_date.replace(year=2021), final_date.replace(year=2021))
+    
+    # Process selected cities
+    df_cities = pd.read_csv('config/cities.csv')
+    st.dataframe(df_cities)
+    
+    # Path to save csv files
+    data_path = f"data/PTRC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
+    
+    return dates_2020, dates_2019, dates_2021, data_path
 
 
+
+
+
+
+
+
+# ----------------------------- Utility Functions ---------------------------- #
 
 def scrape_data(cities, states, headers, dates, backdates, frontdates, causes, data_path):
     '''
@@ -87,7 +174,6 @@ def scrape_data(cities, states, headers, dates, backdates, frontdates, causes, d
 
         concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
 
-
 def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_path):
     '''
         Scrapes the desired data and saves on the /data directory.
@@ -156,8 +242,10 @@ def scrape_data_cardiac(cities, states, headers, dates, backdates, causes, data_
         concat.fillna(0, inplace=True)
 
         concat.to_csv(data_path + f'/RC_{state}_{city}.csv')
-        
-        
+
+
+
+#TODO Erase Deprecated Functions        
 def load_data():
     city_select = dict()
     cities = dict()

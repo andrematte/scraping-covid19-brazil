@@ -2,5 +2,5 @@
 source/.DS_Store
 .DS_Store
 data/
-headers.txt
+headers.py
 .vscode/settings.json

@@ -11,12 +11,12 @@ Run the app via termial by calling 'streamlit run app/scraper-app.py'.
  
 # ---------------------------- Importing Libraries --------------------------- #
  
-from datetime import datetime
+
 import streamlit as st
 import pandas as pd
 import random as rd
 
-#from source.utils import *
+from source.utils import *
 
 
 # ----------------------------- App Configuration ---------------------------- #
@@ -35,7 +35,7 @@ This code scrapes daily data from the Brazilian Civil Registry Transparency Port
 Data contains the number of deaths by respiratory and cardiovascular system diseases by city/state in Brazil in 2020.
 Data from 2019 is also included for comparison.
 """ 
-st.image('./images/sample-plot-ptrc.png')
+st.image('images/sample-plot-ptrc.png')
 """
 ## Brazilian Transparency Portal of Civil Registry
 
@@ -44,32 +44,9 @@ st.image('./images/sample-plot-ptrc.png')
  website is based on death certificates sent by the registry offices countrywide for deaths that take place in hospitals, residences, public roads, etc [1].
 """
 
-# ------------------------------ Sidebar Options ----------------------------- #
-st.sidebar.title('Configurações')
-st.sidebar.subheader('Selecione o Período')
-st.sidebar.write('O algoritmo irá baixar os dados para o período correspondente às datas abaixo.')
 
-# Date Settings
-start_date = st.sidebar.date_input('Data Inicial',
-                                   value=datetime(2020, 1, 1),
-                                   min_value=datetime(2020, 1, 1),
-                                   max_value=datetime(2020, 12, 31))
 
-final_date = st.sidebar.date_input('Data Final',
-                                   value=datetime(2020, 12, 31),
-                                   min_value=datetime(2020, 1, 1),
-                                   max_value=datetime(2020, 12, 31))
+# ------------------------------ Scraping Config ----------------------------- #
 
-dates = pd.date_range(start_date, final_date)
-backdates = pd.date_range(start_date.replace(year=2019), final_date.replace(year=2019))
-frontdates = pd.date_range(start_date.replace(year=2021), final_date.replace(year=2021))
-
-st.sidebar.subheader('Selecione as Cidades')
-st.sidebar.write('Os dados referentes às cidades selecionadas serão baixados.')
-
-# City Settings
-cities = ['Todos os estados', 'Todas as capitais']
-selected_cities = st.sidebar.selectbox('Cidades', cities)
-
-# Path to save csv files
-data_path = f"../data/PTRC_{pd.Timestamp.today().strftime('%Y-%m-%d')}/"
+start_date, final_date, selected_cities = app_config()
+dates_2020, dates_2019, dates_2021, data_path = setup_scrape(start_date, final_date, selected_cities)
