@@ -29,7 +29,7 @@ def app_config():
 
     final_date = st.sidebar.date_input('Data Final',
                                     value=datetime(2020, 12, 31),
-                                    min_value=datetime(2020, 1, 1),
+                                    min_value=start_date,
                                     max_value=datetime(2020, 12, 31))
 
     st.sidebar.subheader('Selecione as Cidades')
