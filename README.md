@@ -1,5 +1,5 @@
 # Scraping COVID-19 Brazil
-This code scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020. Data from 2019 is also included for comparison.
+This application scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020. Data from 2019 and 2021 are also included for comparison.
 
 <img src="images/sample-plot-ptrc.png" title="Github Logo">
 
@@ -11,20 +11,25 @@ This code scrapes daily data from the Brazilian Civil Registry Transparency Port
 
 
 
+## Installation
+
+In order to install all the required libraries, run the following command:
+
+`pip install -r requirements.txt`
+
+
+
 ## Instructions
 
 In order to setup the execution, the following set of instructions are required:
 
-1. Fill the required browser headers in the "headers-sample.txt" file and rename it to "headers.txt". The information can be acquired through your browser's web inspector.
-2. Choose the brazilian cities you want to scrape data from by filling the dictionary in the `CitySelect.txt` file.
-3. Run the `scrape-respiratory-daily.py` file to scrape data related to respiratory diseases, or `scrape-cardiac-daily.py` in order to scrape the newly available cardiac diseases data.
-4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The file will be in csv format.
+1. Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt` (config folder). The information can be acquired through your browser's web inspector.
 
+2. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app on your browser.
 
+3. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
 
-The following steps are optional:
-
-1. By default, the script will scrape data since Januray 1st 2020 until the present date, this can be changed by editing the `start-date` and `end-date` variables on the `scrape-respiratory-daily.py` file.
+4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
 
 
