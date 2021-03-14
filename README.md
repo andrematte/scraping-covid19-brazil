@@ -13,7 +13,7 @@ This application scrapes daily data from the Brazilian Civil Registry Transparen
 
 ## Installation
 
-In order to install all the required libraries, run the following command:
+In order to install all the required libraries, download this repository and run the following command:
 
 `pip install -r requirements.txt`
 
