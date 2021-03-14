@@ -23,7 +23,7 @@ In order to install all the required libraries, download this repository and run
 
 In order to setup and execute, the following set of instructions are required:
 
-1. **Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt`** (config folder). The header `User-Agent` should suffice. The information can be acquired through your browser's web inspector. [Tutorial on how to find this information](https://mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/).
+1. **Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt`** (config folder). The header `User-Agent` should suffice. The information can be acquired by a googleing "What's my user agent".
 
 2. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
 
