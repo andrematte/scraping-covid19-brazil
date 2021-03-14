@@ -13,9 +13,15 @@ This application scrapes daily data from the Brazilian Civil Registry Transparen
 
 ## Installation
 
-In order to install all the required libraries, download this repository and run the following command:
+In order to download the files in this repository and install all the required libraries, run the following commands:
 
-`pip install -r requirements.txt`
+1. Clone Repository  (or download the files manually): 
+
+   `git clone https://github.com/andrematte/scraping-covid19-brazil`
+
+2. Install requirements:
+
+    `pip install -r requirements.txt`
 
 
 
