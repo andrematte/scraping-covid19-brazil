@@ -21,7 +21,7 @@ In order to install all the required libraries, run the following command:
 
 ## Instructions
 
-In order to setup the execution, the following set of instructions are required:
+In order to setup and execute, the following set of instructions are required:
 
 1. **Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt`** (config folder). The header `User-Agent` should suffice. The information can be acquired through your browser's web inspector. [Tutorial on how to find this information](https://mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/).
 
