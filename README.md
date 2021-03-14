@@ -23,9 +23,9 @@ In order to install all the required libraries, run the following command:
 
 In order to setup the execution, the following set of instructions are required:
 
-1. Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt` (config folder). The information can be acquired through your browser's web inspector.
+1. **Fill the required browser headers in the `headers-sample.txt` file and rename it to `headers.txt`** (config folder). The header `User-Agent` should suffice. The information can be acquired through your browser's web inspector. [Tutorial on how to find this information](https://mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/).
 
-2. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app on your browser.
+2. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
 
 3. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
 
