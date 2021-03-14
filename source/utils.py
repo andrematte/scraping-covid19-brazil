@@ -57,7 +57,7 @@ def app_config():
         selected_cities = 'CAPITALS'
 
     elif selected_cities == 'Select Individually':
-        selected_state = st.sidebar.selectbox('Selecione o Estado:', df_cities['uf'].unique())
+        selected_state = st.sidebar.selectbox('Select State:', df_cities['uf'].unique())
         
         city_list = list(df_cities[df_cities['uf'] == selected_state ]['nome'].values)
         city_list.insert(0, 'all')
