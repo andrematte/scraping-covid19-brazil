@@ -194,5 +194,8 @@ def process_dataframes(chart_data, diseases, date_2019, date_2020, date_2021, da
                                     'COVID_AVC': 'AVC (COVID)',
                                     'COVID_INFARTO': 'INFARTO (COVID)'})  
     
-    return concat.fillna(0)
+    concat = concat.fillna(0)
+    concat = concat.sort_values(by = 'DATA')
+    
+    return concat
 
