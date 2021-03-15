@@ -1,14 +1,10 @@
 
 config/headers.py
-config/__pycache__
-source/__pycache__
+config/__pycache__/
+source/__pycache__/
 source/.DS_Store
 data/
 .vscode/
 .DS_Store
-config/__pycache__/__init__.cpython-39.pyc
-config/__pycache__/__init__.cpython-39.pyc
-config/__pycache__/headers.cpython-39.pyc
-source/__pycache__/utils.cpython-39.pyc
 *.pyc
-*.pyc
+
