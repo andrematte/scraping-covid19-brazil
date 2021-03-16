@@ -9,3 +9,4 @@ data/*
 *.pyc
 !data/.gitkeep 
 
+*.pyc
