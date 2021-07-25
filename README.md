@@ -1,4 +1,7 @@
 # Scraping COVID-19 Brazil
+
+![](https://img.shields.io/github/license/andrematte/scraping-covid19-brazil?color=red&label=License&style=for-the-badge) ![](https://img.shields.io/github/stars/andrematte/scraping-covid19-brazil?logo=github&style=for-the-badge)
+
 This application scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020. Data from 2019 and 2021 are also included for comparison.
 
 <img src="images/sample-plot-ptrc.png" title="Github Logo">
