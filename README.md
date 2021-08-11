@@ -41,6 +41,10 @@ In order to setup and execute, the following set of instructions are required:
 4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
 
+## To-do
+
+- Come up with a solution to generate browser headers in order to improve usability. This can be achieved by using the fakeheaders Python library.
+
 
 ## License
 
