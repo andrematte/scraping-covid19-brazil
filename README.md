@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/github/license/andrematte/scraping-covid19-brazil?color=red&label=License&style=for-the-badge) ![](https://img.shields.io/github/stars/andrematte/scraping-covid19-brazil?logo=github&style=for-the-badge)
 
-This application scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020. Data from 2019 and 2021 are also included for comparison.
+This application scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020 and 2021. Data from 2019 are also included for comparison.
 
 <img src="images/sample-plot-ptrc.png" title="Github Logo">
 
@@ -40,6 +40,10 @@ In order to setup and execute, the following set of instructions are required:
 
 4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
+
+## To-do
+
+- Come up with a solution to generate browser headers in order to improve usability. This can be achieved by using the fakeheaders Python library.
 
 
 ## License
