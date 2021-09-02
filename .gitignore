@@ -3,17 +3,14 @@ config/headers.py
 config/__pycache__/
 source/__pycache__/
 source/.DS_Store
-data/*
 .vscode/
 .DS_Store
 *.pyc
 !data/.gitkeep 
 
-*.pyc
-*.pyc
-*.pyc
-*.pyc
-*.pyc
+source/*.pyc
+config/*.pyc
+
 
 # Editors
 .vscode/
