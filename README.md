@@ -1,4 +1,6 @@
-# Scraping COVID-19 Brazil
+# Scraping COVID-19 Brazil (Outdated)
+
+**This script was used as a tool for a research project during the COVID-19 pandemic in 2020-2021. Therefore, it only retrieves mortality data for those years** 
 
 ![](https://img.shields.io/github/license/andrematte/scraping-covid19-brazil?color=red&label=License&style=for-the-badge) ![](https://img.shields.io/github/stars/andrematte/scraping-covid19-brazil?logo=github&style=for-the-badge)
 
@@ -44,6 +46,7 @@ In order to setup and execute, the following set of instructions are required:
 ## To-do
 
 - Come up with a solution to generate browser headers in order to improve usability. This can be achieved by using the fakeheaders Python library.
+- Fix scripts in order to download data for 2022 and subsequent years.
 
 
 ## License
