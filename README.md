@@ -6,15 +6,15 @@
 
 This application scrapes daily data from the Brazilian Civil Registry Transparency Portal. Data contains the number of deaths by respiratory system diseases by city/state in Brazil in 2020 and 2021. Data from 2019 are also included for comparison.
 
-<img src="images/example.gif" title="Github Logo">
+<img src="images/example.gif" title="Example">
 
 
 
-## Brazilian Transparency Portal of Civil Registry
+## Brazilian Civil Registry Transparency Portal
 
- The [Brazilian Transparency Portal of Civil Registry](https://transparencia.registrocivil.org.br/especial-covid) offers data on deaths registered due to COVID-19 (confirmed or suspected) and respiratory diseases, such as severe acute respiratory syndrome (SARS), pneumonia, and respiratory failure. The civil registry data website is based on death certificates sent by the registry offices countrywide for deaths that take place in hospitals, residences, public roads, etc [1].
+ The [Brazilian Civil Registry Transparency Portal](https://transparencia.registrocivil.org.br/especial-covid) offers data on deaths registered due to COVID-19 (confirmed or suspected) and respiratory diseases, such as severe acute respiratory syndrome (SARS), pneumonia, and respiratory failure. The civil registry data website is based on death certificates sent by the registry offices countrywide for deaths that take place in hospitals, residences, public roads, etc [1].
  
- <img src="images/sample-plot-ptrc.png" title="Github Logo">
+ <img src="images/sample-plot-ptrc.png" title="Data from PTRC">
 
 
 
