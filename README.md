@@ -34,20 +34,24 @@ In order to download the files in this repository and install all the required l
 
 ## Instructions
 
+### Run using Docker 
+
+*Coming Soon*
+
+### Run Manually
+
 In order to setup and execute, the following set of instructions are required:
 
-1. **Fill the required browser headers in the `headers-sample.py` file and rename it to `headers.py`** (config folder). [How to find headers information](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiegpfb2K_vAhU8TDABHcwPC6IQFjABegQIAxAD&url=https%3A%2F%2Fmkyong.com%2Fcomputer-tips%2Fhow-to-view-http-headers-in-google-chrome%2F&usg=AOvVaw22zLfxGCSlZfbutK8-RlTo). You might need to visit the [Brazilian Civil Registry Portal](https://transparencia.registrocivil.org.br/especial-covid) in order to find the needed headers.
+1. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
 
-2. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
+2. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
 
-3. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
-
-4. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
+3. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
 
 ## To-do
 
-- Come up with a solution to generate browser headers in order to improve usability. This can be achieved by using the fakeheaders Python library.
+- ~~Come up with a solution to generate browser headers in order to improve usability. This can be achieved by using the fakeheaders Python library.~~
 - Fix scripts in order to download data for 2022 and subsequent years.
 
 
