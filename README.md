@@ -16,22 +16,6 @@ This application scrapes daily data from the Brazilian Civil Registry Transparen
  
  <img src="images/sample-plot-ptrc.png" title="Data from PTRC">
 
-
-
-## Installation
-
-In order to download the files in this repository and install all the required libraries, run the following commands:
-
-1. Clone Repository  (or download the files manually): 
-
-   `git clone https://github.com/andrematte/scraping-covid19-brazil`
-
-2. Install requirements:
-
-    `pip install -r requirements.txt`
-
-
-
 ## Instructions
 
 ### Run using Docker 
@@ -42,11 +26,19 @@ In order to download the files in this repository and install all the required l
 
 In order to setup and execute, the following set of instructions are required:
 
-1. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
+1. Clone Repository  (or download the files manually): 
 
-2. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
+   `git clone https://github.com/andrematte/scraping-covid19-brazil`
 
-3. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
+2. Install requirements:
+
+    `pip install -r requirements.txt`
+
+3. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
+
+4. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
+
+5. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
 
 ## To-do
