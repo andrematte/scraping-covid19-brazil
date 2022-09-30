@@ -1,10 +1,12 @@
 import datetime
-import pandas as pd
 import random as rd
-import streamlit as st
-import requests, os, glob, ast, json, shutil, time
-
+import time
 from datetime import datetime
+
+import pandas as pd
+import requests
+import streamlit as st
+
 # ------------------------------- App Functions ------------------------------ #
 
 def app_config():
@@ -88,13 +90,15 @@ def setup_dates(start_date, final_date):
     Returns:
         dates_2020 (date_range): List of dates do scrape (2020)
         dates_2019 (date_range): List of dates do scrape (2019)
-        dates_2019 (date_range): List of dates do scrape (2021)
+        dates_2021 (date_range): List of dates do scrape (2021)
+        dates_2022 (date_range): List of dates do scrape (2022)
     """
     # Process dates
     dates_2020 = pd.date_range(start_date, final_date)
+    
     dates_2019 = pd.date_range(start_date.replace(year=2019), final_date.replace(year=2019))
     dates_2021 = pd.date_range(start_date.replace(year=2021), final_date.replace(year=2021))
-        
+            
     return dates_2020, dates_2019, dates_2021
 
 

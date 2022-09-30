@@ -12,12 +12,11 @@ Run the app via termial by calling 'streamlit run app/scraper-app.py'.
 # ---------------------------- Importing Libraries --------------------------- #
  
 
-import streamlit as st
 import pandas as pd
-import random as rd
+import streamlit as st
 
-from source.utils import *
 from config.headers import *
+from source.utils import *
 
 # ----------------------------- App Configuration ---------------------------- #
 
