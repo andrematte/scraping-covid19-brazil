@@ -1,3 +1,4 @@
-requests==2.25.1
 pandas==1.2.3
-streamlit>=1.11.1
+pyuser_agent==0.1.0
+requests==2.28.1
+streamlit==1.13.0
