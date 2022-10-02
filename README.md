@@ -20,7 +20,25 @@ This application scrapes daily data from the Brazilian Civil Registry Transparen
 
 ### Run using Docker 
 
-*Coming Soon*
+1. Clone Repository  (or download the files manually):
+
+   `git clone https://github.com/andrematte/scraping-covid19-brazil`
+
+2. Change Directory into the new folder:
+
+    `cd scraping-covid19-brazil`
+
+3. Launch the Docker Daemon and build the image:
+
+    `docker build -t scraping-covid19 .`
+
+4. Run docker container:
+
+    `docker run -v $PWD/:/app/ -p 8888:8888 scraping-covid19`
+
+5. Open the web app using your browser.
+
+    `0.0.0.0:8888` or `localhost:8888`
 
 ### Run Manually
 
@@ -30,15 +48,21 @@ In order to setup and execute, the following set of instructions are required:
 
    `git clone https://github.com/andrematte/scraping-covid19-brazil`
 
-2. Install requirements:
+2. Change Directory into the new folder:
+
+    `cd scraping-covid19-brazil`
+
+3. Install requirements:
 
     `pip install -r requirements.txt`
 
-3. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
+4. On the Terminal, navigate to the files directory and run the application by typing `streamlit run scraper-app.py`. This will launch the app **on your browser**.
 
-4. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
+### Downloading data
 
-5. The data will be saved in the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
+1. Read the project description and press the Run button at the end. You can also edit the settings on the sidebar (left side). By default, the app will scrape data for all the Brazilian States (2019-2021).
+
+2. Data will be saved to the `data` repository in a directory named after the date the web scraping was executed. The files will be in csv format.
 
 
 ## To-do
